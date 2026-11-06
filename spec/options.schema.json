@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://craggy.io/charts/options.schema.json",
+  "title": "ChartOptions",
+  "description": "craggy-charts options. One flat object; every key is optional except type and data (or value for single-value types). Identical in every language.",
+  "type": "object",
+  "required": ["type"],
+  "properties": {
+    "type": {
+      "description": "Chart type.",
+      "enum": ["line", "area", "bar", "histogram", "scatter", "bubble", "range", "candlestick", "ohlc", "boxplot", "waterfall", "heatmap", "calendar", "pie", "donut", "gauge", "radialBar", "radar", "rose", "waffle", "treemap", "funnel", "progress", "stat"]
+    },
+    "data": { "description": "Rows ([{...}]), plain numbers ([3, 5, 2]) or columns ({ a: [...], b: [...] }).", "x-ts": "Data", "x-dart": "Object?" },
+    "x": { "description": "x / category / label column. Default: first text or date column, else the row index.", "x-ts": "Channel", "x-dart": "Object?" },
+    "y": { "description": "One value column or a list of them; each is a series. Default: every number column.", "x-ts": "Channel | Channel[]", "x-dart": "Object?" },
+    "by": { "description": "Split long (tidy) data into series by this column.", "type": "string" },
+    "value": { "description": "Value column (heatmap, calendar, treemap...) or the single value (gauge, progress, stat).", "x-ts": "number | string", "x-dart": "Object?" },
+    "size": { "description": "Bubble size column.", "type": "string" },
+    "label": { "description": "Label column, or the caption for gauge / progress / stat.", "type": "string" },
+    "open": { "description": "Open column (candlestick, ohlc).", "type": "string" },
+    "high": { "description": "High column.", "type": "string" },
+    "low": { "description": "Low column.", "type": "string" },
+    "close": { "description": "Close column.", "type": "string" },
+    "from": { "description": "Lower bound column (range).", "type": "string" },
+    "to": { "description": "Upper bound column (range).", "type": "string" },
+    "min": { "description": "Minimum (gauge, progress).", "type": "number" },
+    "max": { "description": "Maximum (gauge, progress, radialBar).", "type": "number" },
+    "stack": { "description": "Stack series: true, or 'percent' for 100% stacks.", "x-ts": "boolean | 'percent'", "x-dart": "Object?" },
+    "horizontal": { "description": "Bars, boxes and progress go sideways.", "type": "boolean" },
+    "curve": { "description": "Line shape.", "enum": ["smooth", "linear", "step"] },
+    "fill": { "description": "Fill under a line.", "type": "boolean" },
+    "window": { "description": "Live mode: keep the last N rows and scroll at constant speed.", "type": "integer" },
+    "bins": { "description": "Histogram bin count (default: automatic).", "type": "integer" },
+    "inner": { "description": "Donut hole as a fraction of the radius.", "type": "number" },
+    "units": { "description": "Waffle unit count (default 100).", "type": "integer" },
+    "sort": { "description": "Sort categories by value.", "enum": ["asc", "desc"] },
+    "labels": { "description": "Show value labels on bars, slices and cells.", "type": "boolean" },
+    "cell": { "description": "Tile size: 'fine' (3px), 'normal' (6px), 'chunky' (12px) or pixels.", "x-ts": "number | 'fine' | 'normal' | 'chunky'", "x-dart": "Object?" },
+    "gap": { "description": "Gap between tiles as a fraction of the cell (default 3/16).", "type": "number" },
+    "round": { "description": "Tile corner radius as a fraction of the cell (default 3/16).", "type": "number" },
+    "theme": { "description": "'dark', 'light', 'auto' or a partial token object.", "x-ts": "'dark' | 'light' | 'auto' | Partial<ThemeTokens>", "x-dart": "Object?" },
+    "colors": { "description": "Series colours: a list, or { seriesName: colour }.", "x-ts": "string[] | Record<string, string>", "x-dart": "Object?" },
+    "series": { "description": "Per-series overrides keyed by series name.", "x-ts": "Record<string, SeriesOptions>", "x-dart": "Map<String, Map<String, Object?>>?" },
+    "format": { "description": "Value format: 'compact', 'number', 'percent', 'currency', 'bytes', 'duration' or a function.", "x-ts": "FormatName | ((v: number) => string)", "x-dart": "Object?" },
+    "title": { "description": "Title above the chart.", "type": "string" },
+    "subtitle": { "description": "Subtitle under the title.", "type": "string" },
+    "legend": { "description": "Legend: true, false, 'top', 'bottom' or 'right'. Default: shown when there are 2+ series.", "x-ts": "boolean | 'top' | 'bottom' | 'right'", "x-dart": "Object?" },
+    "tooltip": { "description": "false, or a function (point) => string.", "x-ts": "boolean | ((p: ChartPoint) => string)", "x-dart": "Object?" },
+    "axes": { "description": "false hides axes and gridlines (sparklines).", "type": "boolean" },
+    "xAxis": { "description": "x axis: { min, max, label, format, ticks }.", "x-ts": "AxisOptions", "x-dart": "Map<String, Object?>?" },
+    "yAxis": { "description": "y axis: { min, max, label, format, log, ticks }.", "x-ts": "AxisOptions", "x-dart": "Map<String, Object?>?" },
+    "annotations": { "description": "Reference lines and bands: { y, label } | { x, label } | { from, to, label, axis }.", "x-ts": "Annotation[]", "x-dart": "List<Map<String, Object?>>?" },
+    "layers": { "description": "Combo charts: extra option objects drawn on the same axes, inheriting from the parent.", "x-ts": "Partial<ChartOptions>[]", "x-dart": "List<Map<String, Object?>>?" },
+    "zoom": { "description": "Wheel / pinch / drag zoom and pan: true, 'x' or 'xy'.", "x-ts": "boolean | 'x' | 'xy'", "x-dart": "Object?" },
+    "brush": { "description": "Drag to select a range: true or 'x'. Emits 'select'.", "x-ts": "boolean | 'x'", "x-dart": "Object?" },
+    "group": { "description": "Charts with the same group share crosshair, hover and zoom.", "type": "string" },
+    "animate": { "description": "false, or { speed } (default speed 1).", "x-ts": "boolean | { speed?: number }", "x-dart": "Object?" }
+  },
+  "$defs": {
+    "SeriesOptions": {
+      "type": "object",
+      "properties": {
+        "color": { "type": "string" },
+        "type": { "description": "Draw this series as another type (creates a layer).", "type": "string" },
+        "axis": { "enum": ["left", "right"] },
+        "label": { "type": "string" },
+        "format": { "x-ts": "FormatName | ((v: number) => string)" },
+        "hidden": { "type": "boolean" },
+        "pattern": { "description": "Tile texture for print and colour-vision deficiency.", "enum": ["solid", "checker", "stripe", "dots"] }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - example/**
+    - build/**
+  language:
+    strict-casts: false
+
+linter:
+  rules:
+    - prefer_final_locals
+    - prefer_single_quotes
+    - sort_child_properties_last

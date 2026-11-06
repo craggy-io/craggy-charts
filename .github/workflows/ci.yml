@@ -1,0 +1,48 @@
+name: ci
+on: [push, pull_request]
+
+jobs:
+  js:
+    runs-on: windows-latest  # the visual goldens were made on Windows; text rasterises differently elsewhere
+    defaults: { run: { working-directory: js, shell: bash } }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 24, cache: npm, cache-dependency-path: js/package-lock.json }
+      - uses: astral-sh/setup-uv@v6
+      - run: npm ci
+      - run: npm run build && npm run build:python
+      - run: npm run typecheck
+      - run: npm test
+      - run: npx playwright install --with-deps chromium
+      # Browser suites, then the perf budgets on their own (the `perf` project runs last).
+      - run: npx playwright test
+      - if: failure()
+        uses: actions/upload-artifact@v4
+        with: { name: playwright-results, path: js/test-results }
+
+  python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 24, cache: npm, cache-dependency-path: js/package-lock.json }
+      - uses: astral-sh/setup-uv@v6
+      - run: npm ci
+        working-directory: js
+      - run: node python/build.mjs
+      - run: uv run pytest
+        working-directory: python
+
+  flutter:
+    runs-on: windows-latest  # same reason: the golden images
+    defaults: { run: { working-directory: flutter, shell: bash } }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with: { channel: stable }
+      - run: flutter pub get
+      - run: flutter analyze
+      - run: flutter test  # conformance against ../conformance/expected, core, widget and golden tests
+      - run: flutter build web
+        working-directory: flutter/example

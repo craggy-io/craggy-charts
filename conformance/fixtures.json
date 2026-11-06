@@ -1,0 +1,6469 @@
+[
+ {
+  "name": "line",
+  "options": {
+   "type": "line",
+   "data": [
+    {
+     "month": "Jan",
+     "north": 40,
+     "south": 53,
+     "west": 23
+    },
+    {
+     "month": "Feb",
+     "north": 47,
+     "south": 48,
+     "west": 27
+    },
+    {
+     "month": "Mar",
+     "north": 53,
+     "south": 49,
+     "west": 32
+    },
+    {
+     "month": "Apr",
+     "north": 60,
+     "south": 47,
+     "west": 32
+    },
+    {
+     "month": "May",
+     "north": 68,
+     "south": 36,
+     "west": 32
+    },
+    {
+     "month": "Jun",
+     "north": 69,
+     "south": 47,
+     "west": 31
+    },
+    {
+     "month": "Jul",
+     "north": 72,
+     "south": 42,
+     "west": 41
+    },
+    {
+     "month": "Aug",
+     "north": 77,
+     "south": 33,
+     "west": 39
+    },
+    {
+     "month": "Sep",
+     "north": 82,
+     "south": 47,
+     "west": 42
+    },
+    {
+     "month": "Oct",
+     "north": 79,
+     "south": 53,
+     "west": 47
+    },
+    {
+     "month": "Nov",
+     "north": 77,
+     "south": 38,
+     "west": 48
+    },
+    {
+     "month": "Dec",
+     "north": 80,
+     "south": 34,
+     "west": 45
+    }
+   ],
+   "x": "month"
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "line-time",
+  "options": {
+   "type": "line",
+   "data": [
+    {
+     "date": "2026-01-01",
+     "visits": 1086
+    },
+    {
+     "date": "2026-01-02",
+     "visits": 1109
+    },
+    {
+     "date": "2026-01-03",
+     "visits": 1286
+    },
+    {
+     "date": "2026-01-04",
+     "visits": 1255
+    },
+    {
+     "date": "2026-01-05",
+     "visits": 1331
+    },
+    {
+     "date": "2026-01-06",
+     "visits": 1398
+    },
+    {
+     "date": "2026-01-07",
+     "visits": 1264
+    },
+    {
+     "date": "2026-01-08",
+     "visits": 1331
+    },
+    {
+     "date": "2026-01-09",
+     "visits": 1404
+    },
+    {
+     "date": "2026-01-10",
+     "visits": 1401
+    },
+    {
+     "date": "2026-01-11",
+     "visits": 1383
+    },
+    {
+     "date": "2026-01-12",
+     "visits": 1328
+    },
+    {
+     "date": "2026-01-13",
+     "visits": 1455
+    },
+    {
+     "date": "2026-01-14",
+     "visits": 1259
+    },
+    {
+     "date": "2026-01-15",
+     "visits": 1290
+    },
+    {
+     "date": "2026-01-16",
+     "visits": 1248
+    },
+    {
+     "date": "2026-01-17",
+     "visits": 1270
+    },
+    {
+     "date": "2026-01-18",
+     "visits": 1276
+    },
+    {
+     "date": "2026-01-19",
+     "visits": 1145
+    },
+    {
+     "date": "2026-01-20",
+     "visits": 1026
+    },
+    {
+     "date": "2026-01-21",
+     "visits": 1024
+    },
+    {
+     "date": "2026-01-22",
+     "visits": 951
+    },
+    {
+     "date": "2026-01-23",
+     "visits": 923
+    },
+    {
+     "date": "2026-01-24",
+     "visits": 893
+    },
+    {
+     "date": "2026-01-25",
+     "visits": 839
+    },
+    {
+     "date": "2026-01-26",
+     "visits": 850
+    },
+    {
+     "date": "2026-01-27",
+     "visits": 844
+    },
+    {
+     "date": "2026-01-28",
+     "visits": 753
+    },
+    {
+     "date": "2026-01-29",
+     "visits": 882
+    },
+    {
+     "date": "2026-01-30",
+     "visits": 794
+    },
+    {
+     "date": "2026-01-31",
+     "visits": 885
+    },
+    {
+     "date": "2026-02-01",
+     "visits": 857
+    },
+    {
+     "date": "2026-02-02",
+     "visits": 883
+    },
+    {
+     "date": "2026-02-03",
+     "visits": 892
+    },
+    {
+     "date": "2026-02-04",
+     "visits": 928
+    },
+    {
+     "date": "2026-02-05",
+     "visits": 1007
+    },
+    {
+     "date": "2026-02-06",
+     "visits": 1104
+    },
+    {
+     "date": "2026-02-07",
+     "visits": 1044
+    },
+    {
+     "date": "2026-02-08",
+     "visits": 1157
+    },
+    {
+     "date": "2026-02-09",
+     "visits": 1115
+    },
+    {
+     "date": "2026-02-10",
+     "visits": 1230
+    },
+    {
+     "date": "2026-02-11",
+     "visits": 1227
+    },
+    {
+     "date": "2026-02-12",
+     "visits": 1263
+    },
+    {
+     "date": "2026-02-13",
+     "visits": 1310
+    },
+    {
+     "date": "2026-02-14",
+     "visits": 1419
+    },
+    {
+     "date": "2026-02-15",
+     "visits": 1457
+    },
+    {
+     "date": "2026-02-16",
+     "visits": 1317
+    },
+    {
+     "date": "2026-02-17",
+     "visits": 1464
+    },
+    {
+     "date": "2026-02-18",
+     "visits": 1312
+    },
+    {
+     "date": "2026-02-19",
+     "visits": 1367
+    },
+    {
+     "date": "2026-02-20",
+     "visits": 1297
+    },
+    {
+     "date": "2026-02-21",
+     "visits": 1255
+    },
+    {
+     "date": "2026-02-22",
+     "visits": 1406
+    },
+    {
+     "date": "2026-02-23",
+     "visits": 1211
+    },
+    {
+     "date": "2026-02-24",
+     "visits": 1250
+    },
+    {
+     "date": "2026-02-25",
+     "visits": 1105
+    },
+    {
+     "date": "2026-02-26",
+     "visits": 1119
+    },
+    {
+     "date": "2026-02-27",
+     "visits": 1096
+    },
+    {
+     "date": "2026-02-28",
+     "visits": 956
+    },
+    {
+     "date": "2026-03-01",
+     "visits": 1065
+    }
+   ],
+   "title": "Visits"
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "line-step",
+  "options": {
+   "type": "line",
+   "data": [
+    {
+     "month": "Jan",
+     "north": 40,
+     "south": 53,
+     "west": 23
+    },
+    {
+     "month": "Feb",
+     "north": 47,
+     "south": 48,
+     "west": 27
+    },
+    {
+     "month": "Mar",
+     "north": 53,
+     "south": 49,
+     "west": 32
+    },
+    {
+     "month": "Apr",
+     "north": 60,
+     "south": 47,
+     "west": 32
+    },
+    {
+     "month": "May",
+     "north": 68,
+     "south": 36,
+     "west": 32
+    },
+    {
+     "month": "Jun",
+     "north": 69,
+     "south": 47,
+     "west": 31
+    },
+    {
+     "month": "Jul",
+     "north": 72,
+     "south": 42,
+     "west": 41
+    },
+    {
+     "month": "Aug",
+     "north": 77,
+     "south": 33,
+     "west": 39
+    },
+    {
+     "month": "Sep",
+     "north": 82,
+     "south": 47,
+     "west": 42
+    },
+    {
+     "month": "Oct",
+     "north": 79,
+     "south": 53,
+     "west": 47
+    },
+    {
+     "month": "Nov",
+     "north": 77,
+     "south": 38,
+     "west": 48
+    },
+    {
+     "month": "Dec",
+     "north": 80,
+     "south": 34,
+     "west": 45
+    }
+   ],
+   "curve": "step",
+   "y": "north"
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "line-annotations",
+  "options": {
+   "type": "line",
+   "data": [
+    {
+     "month": "Jan",
+     "north": 40,
+     "south": 53,
+     "west": 23
+    },
+    {
+     "month": "Feb",
+     "north": 47,
+     "south": 48,
+     "west": 27
+    },
+    {
+     "month": "Mar",
+     "north": 53,
+     "south": 49,
+     "west": 32
+    },
+    {
+     "month": "Apr",
+     "north": 60,
+     "south": 47,
+     "west": 32
+    },
+    {
+     "month": "May",
+     "north": 68,
+     "south": 36,
+     "west": 32
+    },
+    {
+     "month": "Jun",
+     "north": 69,
+     "south": 47,
+     "west": 31
+    },
+    {
+     "month": "Jul",
+     "north": 72,
+     "south": 42,
+     "west": 41
+    },
+    {
+     "month": "Aug",
+     "north": 77,
+     "south": 33,
+     "west": 39
+    },
+    {
+     "month": "Sep",
+     "north": 82,
+     "south": 47,
+     "west": 42
+    },
+    {
+     "month": "Oct",
+     "north": 79,
+     "south": 53,
+     "west": 47
+    },
+    {
+     "month": "Nov",
+     "north": 77,
+     "south": 38,
+     "west": 48
+    },
+    {
+     "month": "Dec",
+     "north": 80,
+     "south": 34,
+     "west": 45
+    }
+   ],
+   "annotations": [
+    {
+     "y": 60,
+     "label": "target"
+    },
+    {
+     "x": "Jun",
+     "label": "launch"
+    },
+    {
+     "from": "Mar",
+     "to": "May"
+    }
+   ]
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "line-right-axis",
+  "options": {
+   "type": "line",
+   "data": [
+    {
+     "month": "Jan",
+     "north": 40,
+     "south": 53,
+     "west": 23
+    },
+    {
+     "month": "Feb",
+     "north": 47,
+     "south": 48,
+     "west": 27
+    },
+    {
+     "month": "Mar",
+     "north": 53,
+     "south": 49,
+     "west": 32
+    },
+    {
+     "month": "Apr",
+     "north": 60,
+     "south": 47,
+     "west": 32
+    },
+    {
+     "month": "May",
+     "north": 68,
+     "south": 36,
+     "west": 32
+    },
+    {
+     "month": "Jun",
+     "north": 69,
+     "south": 47,
+     "west": 31
+    },
+    {
+     "month": "Jul",
+     "north": 72,
+     "south": 42,
+     "west": 41
+    },
+    {
+     "month": "Aug",
+     "north": 77,
+     "south": 33,
+     "west": 39
+    },
+    {
+     "month": "Sep",
+     "north": 82,
+     "south": 47,
+     "west": 42
+    },
+    {
+     "month": "Oct",
+     "north": 79,
+     "south": 53,
+     "west": 47
+    },
+    {
+     "month": "Nov",
+     "north": 77,
+     "south": 38,
+     "west": 48
+    },
+    {
+     "month": "Dec",
+     "north": 80,
+     "south": 34,
+     "west": 45
+    }
+   ],
+   "series": {
+    "west": {
+     "axis": "right"
+    }
+   }
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "line-log",
+  "options": {
+   "type": "line",
+   "data": [
+    1,
+    3,
+    10,
+    40,
+    120,
+    600,
+    2400,
+    9000
+   ],
+   "yAxis": {
+    "log": true
+   }
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "area",
+  "options": {
+   "type": "area",
+   "data": [
+    {
+     "month": "Jan",
+     "north": 40,
+     "south": 53,
+     "west": 23
+    },
+    {
+     "month": "Feb",
+     "north": 47,
+     "south": 48,
+     "west": 27
+    },
+    {
+     "month": "Mar",
+     "north": 53,
+     "south": 49,
+     "west": 32
+    },
+    {
+     "month": "Apr",
+     "north": 60,
+     "south": 47,
+     "west": 32
+    },
+    {
+     "month": "May",
+     "north": 68,
+     "south": 36,
+     "west": 32
+    },
+    {
+     "month": "Jun",
+     "north": 69,
+     "south": 47,
+     "west": 31
+    },
+    {
+     "month": "Jul",
+     "north": 72,
+     "south": 42,
+     "west": 41
+    },
+    {
+     "month": "Aug",
+     "north": 77,
+     "south": 33,
+     "west": 39
+    },
+    {
+     "month": "Sep",
+     "north": 82,
+     "south": 47,
+     "west": 42
+    },
+    {
+     "month": "Oct",
+     "north": 79,
+     "south": 53,
+     "west": 47
+    },
+    {
+     "month": "Nov",
+     "north": 77,
+     "south": 38,
+     "west": 48
+    },
+    {
+     "month": "Dec",
+     "north": 80,
+     "south": 34,
+     "west": 45
+    }
+   ]
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "area-stacked",
+  "options": {
+   "type": "area",
+   "data": [
+    {
+     "month": "Jan",
+     "north": 40,
+     "south": 53,
+     "west": 23
+    },
+    {
+     "month": "Feb",
+     "north": 47,
+     "south": 48,
+     "west": 27
+    },
+    {
+     "month": "Mar",
+     "north": 53,
+     "south": 49,
+     "west": 32
+    },
+    {
+     "month": "Apr",
+     "north": 60,
+     "south": 47,
+     "west": 32
+    },
+    {
+     "month": "May",
+     "north": 68,
+     "south": 36,
+     "west": 32
+    },
+    {
+     "month": "Jun",
+     "north": 69,
+     "south": 47,
+     "west": 31
+    },
+    {
+     "month": "Jul",
+     "north": 72,
+     "south": 42,
+     "west": 41
+    },
+    {
+     "month": "Aug",
+     "north": 77,
+     "south": 33,
+     "west": 39
+    },
+    {
+     "month": "Sep",
+     "north": 82,
+     "south": 47,
+     "west": 42
+    },
+    {
+     "month": "Oct",
+     "north": 79,
+     "south": 53,
+     "west": 47
+    },
+    {
+     "month": "Nov",
+     "north": 77,
+     "south": 38,
+     "west": 48
+    },
+    {
+     "month": "Dec",
+     "north": 80,
+     "south": 34,
+     "west": 45
+    }
+   ],
+   "stack": true
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "area-percent",
+  "options": {
+   "type": "area",
+   "data": [
+    {
+     "month": "Jan",
+     "north": 40,
+     "south": 53,
+     "west": 23
+    },
+    {
+     "month": "Feb",
+     "north": 47,
+     "south": 48,
+     "west": 27
+    },
+    {
+     "month": "Mar",
+     "north": 53,
+     "south": 49,
+     "west": 32
+    },
+    {
+     "month": "Apr",
+     "north": 60,
+     "south": 47,
+     "west": 32
+    },
+    {
+     "month": "May",
+     "north": 68,
+     "south": 36,
+     "west": 32
+    },
+    {
+     "month": "Jun",
+     "north": 69,
+     "south": 47,
+     "west": 31
+    },
+    {
+     "month": "Jul",
+     "north": 72,
+     "south": 42,
+     "west": 41
+    },
+    {
+     "month": "Aug",
+     "north": 77,
+     "south": 33,
+     "west": 39
+    },
+    {
+     "month": "Sep",
+     "north": 82,
+     "south": 47,
+     "west": 42
+    },
+    {
+     "month": "Oct",
+     "north": 79,
+     "south": 53,
+     "west": 47
+    },
+    {
+     "month": "Nov",
+     "north": 77,
+     "south": 38,
+     "west": 48
+    },
+    {
+     "month": "Dec",
+     "north": 80,
+     "south": 34,
+     "west": 45
+    }
+   ],
+   "stack": "percent"
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "bar",
+  "options": {
+   "type": "bar",
+   "data": [
+    {
+     "month": "Jan",
+     "north": 40,
+     "south": 53,
+     "west": 23
+    },
+    {
+     "month": "Feb",
+     "north": 47,
+     "south": 48,
+     "west": 27
+    },
+    {
+     "month": "Mar",
+     "north": 53,
+     "south": 49,
+     "west": 32
+    },
+    {
+     "month": "Apr",
+     "north": 60,
+     "south": 47,
+     "west": 32
+    },
+    {
+     "month": "May",
+     "north": 68,
+     "south": 36,
+     "west": 32
+    },
+    {
+     "month": "Jun",
+     "north": 69,
+     "south": 47,
+     "west": 31
+    }
+   ],
+   "y": "north"
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "bar-grouped",
+  "options": {
+   "type": "bar",
+   "data": [
+    {
+     "month": "Jan",
+     "north": 40,
+     "south": 53,
+     "west": 23
+    },
+    {
+     "month": "Feb",
+     "north": 47,
+     "south": 48,
+     "west": 27
+    },
+    {
+     "month": "Mar",
+     "north": 53,
+     "south": 49,
+     "west": 32
+    },
+    {
+     "month": "Apr",
+     "north": 60,
+     "south": 47,
+     "west": 32
+    },
+    {
+     "month": "May",
+     "north": 68,
+     "south": 36,
+     "west": 32
+    },
+    {
+     "month": "Jun",
+     "north": 69,
+     "south": 47,
+     "west": 31
+    }
+   ]
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "bar-stacked",
+  "options": {
+   "type": "bar",
+   "data": [
+    {
+     "month": "Jan",
+     "north": 40,
+     "south": 53,
+     "west": 23
+    },
+    {
+     "month": "Feb",
+     "north": 47,
+     "south": 48,
+     "west": 27
+    },
+    {
+     "month": "Mar",
+     "north": 53,
+     "south": 49,
+     "west": 32
+    },
+    {
+     "month": "Apr",
+     "north": 60,
+     "south": 47,
+     "west": 32
+    },
+    {
+     "month": "May",
+     "north": 68,
+     "south": 36,
+     "west": 32
+    },
+    {
+     "month": "Jun",
+     "north": 69,
+     "south": 47,
+     "west": 31
+    }
+   ],
+   "stack": true
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "bar-horizontal",
+  "options": {
+   "type": "bar",
+   "data": [
+    {
+     "name": "Search",
+     "value": 42
+    },
+    {
+     "name": "Direct",
+     "value": 26
+    },
+    {
+     "name": "Social",
+     "value": 18
+    },
+    {
+     "name": "Email",
+     "value": 9
+    },
+    {
+     "name": "Other",
+     "value": 5
+    }
+   ],
+   "horizontal": true,
+   "sort": "desc"
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "bar-negative",
+  "options": {
+   "type": "bar",
+   "data": [
+    {
+     "q": "Q1",
+     "v": 12
+    },
+    {
+     "q": "Q2",
+     "v": -8
+    },
+    {
+     "q": "Q3",
+     "v": 5
+    },
+    {
+     "q": "Q4",
+     "v": -3
+    }
+   ]
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "bar-hidden",
+  "options": {
+   "type": "bar",
+   "data": [
+    {
+     "month": "Jan",
+     "north": 40,
+     "south": 53,
+     "west": 23
+    },
+    {
+     "month": "Feb",
+     "north": 47,
+     "south": 48,
+     "west": 27
+    },
+    {
+     "month": "Mar",
+     "north": 53,
+     "south": 49,
+     "west": 32
+    },
+    {
+     "month": "Apr",
+     "north": 60,
+     "south": 47,
+     "west": 32
+    },
+    {
+     "month": "May",
+     "north": 68,
+     "south": 36,
+     "west": 32
+    },
+    {
+     "month": "Jun",
+     "north": 69,
+     "south": 47,
+     "west": 31
+    }
+   ],
+   "series": {
+    "south": {
+     "hidden": true
+    }
+   }
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "bar-pattern",
+  "options": {
+   "type": "bar",
+   "data": [
+    {
+     "month": "Jan",
+     "north": 40,
+     "south": 53,
+     "west": 23
+    },
+    {
+     "month": "Feb",
+     "north": 47,
+     "south": 48,
+     "west": 27
+    },
+    {
+     "month": "Mar",
+     "north": 53,
+     "south": 49,
+     "west": 32
+    },
+    {
+     "month": "Apr",
+     "north": 60,
+     "south": 47,
+     "west": 32
+    }
+   ],
+   "series": {
+    "south": {
+     "pattern": "stripe"
+    }
+   }
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "combo",
+  "options": {
+   "type": "bar",
+   "data": [
+    {
+     "month": "Jan",
+     "north": 40,
+     "south": 53,
+     "west": 23
+    },
+    {
+     "month": "Feb",
+     "north": 47,
+     "south": 48,
+     "west": 27
+    },
+    {
+     "month": "Mar",
+     "north": 53,
+     "south": 49,
+     "west": 32
+    },
+    {
+     "month": "Apr",
+     "north": 60,
+     "south": 47,
+     "west": 32
+    },
+    {
+     "month": "May",
+     "north": 68,
+     "south": 36,
+     "west": 32
+    },
+    {
+     "month": "Jun",
+     "north": 69,
+     "south": 47,
+     "west": 31
+    },
+    {
+     "month": "Jul",
+     "north": 72,
+     "south": 42,
+     "west": 41
+    },
+    {
+     "month": "Aug",
+     "north": 77,
+     "south": 33,
+     "west": 39
+    },
+    {
+     "month": "Sep",
+     "north": 82,
+     "south": 47,
+     "west": 42
+    },
+    {
+     "month": "Oct",
+     "north": 79,
+     "south": 53,
+     "west": 47
+    },
+    {
+     "month": "Nov",
+     "north": 77,
+     "south": 38,
+     "west": 48
+    },
+    {
+     "month": "Dec",
+     "north": 80,
+     "south": 34,
+     "west": 45
+    }
+   ],
+   "y": [
+    "north",
+    "south"
+   ],
+   "series": {
+    "south": {
+     "type": "line",
+     "axis": "right"
+    }
+   }
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "layers",
+  "options": {
+   "type": "area",
+   "data": [
+    {
+     "month": "Jan",
+     "north": 40,
+     "south": 53,
+     "west": 23
+    },
+    {
+     "month": "Feb",
+     "north": 47,
+     "south": 48,
+     "west": 27
+    },
+    {
+     "month": "Mar",
+     "north": 53,
+     "south": 49,
+     "west": 32
+    },
+    {
+     "month": "Apr",
+     "north": 60,
+     "south": 47,
+     "west": 32
+    },
+    {
+     "month": "May",
+     "north": 68,
+     "south": 36,
+     "west": 32
+    },
+    {
+     "month": "Jun",
+     "north": 69,
+     "south": 47,
+     "west": 31
+    },
+    {
+     "month": "Jul",
+     "north": 72,
+     "south": 42,
+     "west": 41
+    },
+    {
+     "month": "Aug",
+     "north": 77,
+     "south": 33,
+     "west": 39
+    },
+    {
+     "month": "Sep",
+     "north": 82,
+     "south": 47,
+     "west": 42
+    },
+    {
+     "month": "Oct",
+     "north": 79,
+     "south": 53,
+     "west": 47
+    },
+    {
+     "month": "Nov",
+     "north": 77,
+     "south": 38,
+     "west": 48
+    },
+    {
+     "month": "Dec",
+     "north": 80,
+     "south": 34,
+     "west": 45
+    }
+   ],
+   "y": "north",
+   "layers": [
+    {
+     "type": "line",
+     "y": "west"
+    }
+   ]
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "histogram",
+  "options": {
+   "type": "histogram",
+   "data": [
+    {
+     "latency": 115.5
+    },
+    {
+     "latency": 112.7
+    },
+    {
+     "latency": 63.2
+    },
+    {
+     "latency": 79.5
+    },
+    {
+     "latency": 71.9
+    },
+    {
+     "latency": 121.6
+    },
+    {
+     "latency": 82.7
+    },
+    {
+     "latency": 75.5
+    },
+    {
+     "latency": 69
+    },
+    {
+     "latency": 112.8
+    },
+    {
+     "latency": 104.1
+    },
+    {
+     "latency": 96.2
+    },
+    {
+     "latency": 85.4
+    },
+    {
+     "latency": 56.9
+    },
+    {
+     "latency": 92.4
+    },
+    {
+     "latency": 85.4
+    },
+    {
+     "latency": 123.5
+    },
+    {
+     "latency": 103.1
+    },
+    {
+     "latency": 71
+    },
+    {
+     "latency": 62.4
+    },
+    {
+     "latency": 105.4
+    },
+    {
+     "latency": 91.9
+    },
+    {
+     "latency": 108.8
+    },
+    {
+     "latency": 134.1
+    },
+    {
+     "latency": 79.2
+    },
+    {
+     "latency": 73.2
+    },
+    {
+     "latency": 124.5
+    },
+    {
+     "latency": 128.1
+    },
+    {
+     "latency": 92.3
+    },
+    {
+     "latency": 129.4
+    },
+    {
+     "latency": 101.2
+    },
+    {
+     "latency": 84.4
+    },
+    {
+     "latency": 80.3
+    },
+    {
+     "latency": 81.6
+    },
+    {
+     "latency": 72.6
+    },
+    {
+     "latency": 94.2
+    },
+    {
+     "latency": 133.3
+    },
+    {
+     "latency": 118.5
+    },
+    {
+     "latency": 106.2
+    },
+    {
+     "latency": 48.5
+    },
+    {
+     "latency": 91.4
+    },
+    {
+     "latency": 49.9
+    },
+    {
+     "latency": 141.8
+    },
+    {
+     "latency": 140
+    },
+    {
+     "latency": 89.6
+    },
+    {
+     "latency": 94.3
+    },
+    {
+     "latency": 110
+    },
+    {
+     "latency": 102.8
+    },
+    {
+     "latency": 76.4
+    },
+    {
+     "latency": 114.1
+    },
+    {
+     "latency": 50.6
+    },
+    {
+     "latency": 109.4
+    },
+    {
+     "latency": 91.9
+    },
+    {
+     "latency": 125.9
+    },
+    {
+     "latency": 87.4
+    },
+    {
+     "latency": 81.8
+    },
+    {
+     "latency": 102.9
+    },
+    {
+     "latency": 87
+    },
+    {
+     "latency": 101.2
+    },
+    {
+     "latency": 99.7
+    },
+    {
+     "latency": 91.4
+    },
+    {
+     "latency": 149.7
+    },
+    {
+     "latency": 87.9
+    },
+    {
+     "latency": 86.7
+    },
+    {
+     "latency": 88.8
+    },
+    {
+     "latency": 112.2
+    },
+    {
+     "latency": 60.9
+    },
+    {
+     "latency": 107.9
+    },
+    {
+     "latency": 102.4
+    },
+    {
+     "latency": 104.7
+    },
+    {
+     "latency": 103.5
+    },
+    {
+     "latency": 106.1
+    },
+    {
+     "latency": 113.4
+    },
+    {
+     "latency": 89.3
+    },
+    {
+     "latency": 113.6
+    },
+    {
+     "latency": 57.8
+    },
+    {
+     "latency": 121
+    },
+    {
+     "latency": 143.5
+    },
+    {
+     "latency": 110.1
+    },
+    {
+     "latency": 119.5
+    },
+    {
+     "latency": 117.3
+    },
+    {
+     "latency": 111.5
+    },
+    {
+     "latency": 68.8
+    },
+    {
+     "latency": 97.3
+    },
+    {
+     "latency": 132.5
+    },
+    {
+     "latency": 103.2
+    },
+    {
+     "latency": 85.4
+    },
+    {
+     "latency": 57.1
+    },
+    {
+     "latency": 121.6
+    },
+    {
+     "latency": 83.4
+    },
+    {
+     "latency": 90.6
+    },
+    {
+     "latency": 86.3
+    },
+    {
+     "latency": 93.5
+    },
+    {
+     "latency": 129.3
+    },
+    {
+     "latency": 85.3
+    },
+    {
+     "latency": 108.1
+    },
+    {
+     "latency": 120.5
+    },
+    {
+     "latency": 118.3
+    },
+    {
+     "latency": 62.8
+    },
+    {
+     "latency": 102
+    },
+    {
+     "latency": 98.5
+    },
+    {
+     "latency": 127.5
+    },
+    {
+     "latency": 112.5
+    },
+    {
+     "latency": 113.3
+    },
+    {
+     "latency": 135.6
+    },
+    {
+     "latency": 135.3
+    },
+    {
+     "latency": 81.7
+    },
+    {
+     "latency": 113.5
+    },
+    {
+     "latency": 92
+    },
+    {
+     "latency": 70.6
+    },
+    {
+     "latency": 64.1
+    },
+    {
+     "latency": 98
+    },
+    {
+     "latency": 83.8
+    },
+    {
+     "latency": 94
+    },
+    {
+     "latency": 133.1
+    },
+    {
+     "latency": 120.7
+    },
+    {
+     "latency": 129.5
+    },
+    {
+     "latency": 90.4
+    },
+    {
+     "latency": 115.3
+    },
+    {
+     "latency": 71
+    },
+    {
+     "latency": 119.2
+    },
+    {
+     "latency": 114
+    },
+    {
+     "latency": 123.9
+    },
+    {
+     "latency": 86.6
+    },
+    {
+     "latency": 75.2
+    },
+    {
+     "latency": 108.9
+    },
+    {
+     "latency": 90
+    },
+    {
+     "latency": 106
+    },
+    {
+     "latency": 104.1
+    },
+    {
+     "latency": 73.8
+    },
+    {
+     "latency": 94.5
+    },
+    {
+     "latency": 114.9
+    },
+    {
+     "latency": 101.4
+    },
+    {
+     "latency": 81.3
+    },
+    {
+     "latency": 111.9
+    },
+    {
+     "latency": 90.7
+    },
+    {
+     "latency": 115.2
+    },
+    {
+     "latency": 81.2
+    },
+    {
+     "latency": 92.1
+    },
+    {
+     "latency": 98.8
+    },
+    {
+     "latency": 110.2
+    },
+    {
+     "latency": 145.9
+    },
+    {
+     "latency": 86.8
+    },
+    {
+     "latency": 103.9
+    },
+    {
+     "latency": 109.6
+    },
+    {
+     "latency": 115.6
+    },
+    {
+     "latency": 103.7
+    },
+    {
+     "latency": 128.7
+    },
+    {
+     "latency": 119.8
+    },
+    {
+     "latency": 86.3
+    },
+    {
+     "latency": 139.4
+    },
+    {
+     "latency": 112
+    },
+    {
+     "latency": 104.3
+    },
+    {
+     "latency": 72.6
+    },
+    {
+     "latency": 86.5
+    },
+    {
+     "latency": 101.4
+    },
+    {
+     "latency": 95.5
+    },
+    {
+     "latency": 73.6
+    },
+    {
+     "latency": 90.7
+    },
+    {
+     "latency": 100.3
+    },
+    {
+     "latency": 114.4
+    },
+    {
+     "latency": 136.2
+    },
+    {
+     "latency": 88.3
+    },
+    {
+     "latency": 95.6
+    },
+    {
+     "latency": 112.6
+    },
+    {
+     "latency": 95.1
+    },
+    {
+     "latency": 131.2
+    },
+    {
+     "latency": 104.2
+    },
+    {
+     "latency": 122.5
+    },
+    {
+     "latency": 97.8
+    },
+    {
+     "latency": 97.4
+    },
+    {
+     "latency": 100.5
+    },
+    {
+     "latency": 122.8
+    },
+    {
+     "latency": 145.7
+    },
+    {
+     "latency": 61
+    },
+    {
+     "latency": 118.6
+    },
+    {
+     "latency": 95.2
+    },
+    {
+     "latency": 61
+    },
+    {
+     "latency": 79.5
+    },
+    {
+     "latency": 86.9
+    },
+    {
+     "latency": 77.7
+    },
+    {
+     "latency": 138.7
+    },
+    {
+     "latency": 100.6
+    },
+    {
+     "latency": 85.6
+    },
+    {
+     "latency": 127.4
+    },
+    {
+     "latency": 96.7
+    },
+    {
+     "latency": 110.7
+    },
+    {
+     "latency": 81.5
+    },
+    {
+     "latency": 96.7
+    },
+    {
+     "latency": 100
+    },
+    {
+     "latency": 125.6
+    },
+    {
+     "latency": 83.7
+    },
+    {
+     "latency": 101.3
+    },
+    {
+     "latency": 62
+    },
+    {
+     "latency": 101.9
+    },
+    {
+     "latency": 105.9
+    },
+    {
+     "latency": 102.6
+    },
+    {
+     "latency": 81.1
+    },
+    {
+     "latency": 65.8
+    },
+    {
+     "latency": 122.3
+    },
+    {
+     "latency": 112.5
+    },
+    {
+     "latency": 104.6
+    },
+    {
+     "latency": 113.9
+    },
+    {
+     "latency": 111
+    },
+    {
+     "latency": 102.8
+    },
+    {
+     "latency": 142.5
+    },
+    {
+     "latency": 124.3
+    },
+    {
+     "latency": 78.3
+    },
+    {
+     "latency": 82.7
+    },
+    {
+     "latency": 145.6
+    },
+    {
+     "latency": 103
+    },
+    {
+     "latency": 85.2
+    },
+    {
+     "latency": 150.7
+    },
+    {
+     "latency": 103.7
+    },
+    {
+     "latency": 95.7
+    },
+    {
+     "latency": 88.5
+    },
+    {
+     "latency": 85.9
+    },
+    {
+     "latency": 108.9
+    },
+    {
+     "latency": 81.3
+    },
+    {
+     "latency": 97.7
+    },
+    {
+     "latency": 56.8
+    },
+    {
+     "latency": 92.5
+    },
+    {
+     "latency": 104.3
+    },
+    {
+     "latency": 86.8
+    },
+    {
+     "latency": 49.7
+    },
+    {
+     "latency": 93.4
+    },
+    {
+     "latency": 89.9
+    },
+    {
+     "latency": 81.4
+    },
+    {
+     "latency": 128.1
+    },
+    {
+     "latency": 83.8
+    },
+    {
+     "latency": 72
+    },
+    {
+     "latency": 98
+    },
+    {
+     "latency": 93.5
+    },
+    {
+     "latency": 96.7
+    },
+    {
+     "latency": 85
+    },
+    {
+     "latency": 129.2
+    },
+    {
+     "latency": 53
+    },
+    {
+     "latency": 115.6
+    },
+    {
+     "latency": 119
+    },
+    {
+     "latency": 139.4
+    },
+    {
+     "latency": 125.8
+    },
+    {
+     "latency": 99.3
+    },
+    {
+     "latency": 77.4
+    },
+    {
+     "latency": 75.5
+    },
+    {
+     "latency": 88.4
+    },
+    {
+     "latency": 99.2
+    },
+    {
+     "latency": 93.8
+    },
+    {
+     "latency": 128.6
+    },
+    {
+     "latency": 71.4
+    },
+    {
+     "latency": 96.1
+    },
+    {
+     "latency": 73
+    },
+    {
+     "latency": 111.7
+    },
+    {
+     "latency": 74.4
+    },
+    {
+     "latency": 76
+    },
+    {
+     "latency": 109.7
+    },
+    {
+     "latency": 91.7
+    },
+    {
+     "latency": 120.3
+    },
+    {
+     "latency": 110.7
+    },
+    {
+     "latency": 102.2
+    },
+    {
+     "latency": 141
+    },
+    {
+     "latency": 113.2
+    },
+    {
+     "latency": 100.9
+    },
+    {
+     "latency": 117.2
+    },
+    {
+     "latency": 137.7
+    },
+    {
+     "latency": 90.3
+    },
+    {
+     "latency": 74.2
+    },
+    {
+     "latency": 89.5
+    },
+    {
+     "latency": 83.4
+    },
+    {
+     "latency": 69.1
+    },
+    {
+     "latency": 138
+    },
+    {
+     "latency": 101.5
+    },
+    {
+     "latency": 66.9
+    },
+    {
+     "latency": 121.8
+    },
+    {
+     "latency": 85.2
+    },
+    {
+     "latency": 108.6
+    },
+    {
+     "latency": 111.8
+    },
+    {
+     "latency": 82
+    },
+    {
+     "latency": 134
+    },
+    {
+     "latency": 106.5
+    },
+    {
+     "latency": 96.4
+    },
+    {
+     "latency": 122.4
+    },
+    {
+     "latency": 123.7
+    },
+    {
+     "latency": 78.7
+    },
+    {
+     "latency": 131.6
+    },
+    {
+     "latency": 116.4
+    },
+    {
+     "latency": 87
+    },
+    {
+     "latency": 82.8
+    },
+    {
+     "latency": 126.7
+    },
+    {
+     "latency": 102.6
+    },
+    {
+     "latency": 93.2
+    },
+    {
+     "latency": 124.9
+    },
+    {
+     "latency": 136.5
+    },
+    {
+     "latency": 93.2
+    },
+    {
+     "latency": 97.7
+    },
+    {
+     "latency": 93.9
+    },
+    {
+     "latency": 103.5
+    },
+    {
+     "latency": 69.8
+    },
+    {
+     "latency": 123.8
+    },
+    {
+     "latency": 118
+    },
+    {
+     "latency": 140.4
+    }
+   ]
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "scatter",
+  "options": {
+   "type": "scatter",
+   "data": [
+    {
+     "height": 75.7,
+     "weight": 56.3,
+     "group": "a",
+     "size": 3
+    },
+    {
+     "height": 29.9,
+     "weight": 34.2,
+     "group": "b",
+     "size": 72
+    },
+    {
+     "height": 29.1,
+     "weight": 24.5,
+     "group": "a",
+     "size": 43
+    },
+    {
+     "height": 7.5,
+     "weight": 27.7,
+     "group": "a",
+     "size": 92
+    },
+    {
+     "height": 91,
+     "weight": 75,
+     "group": "a",
+     "size": 3
+    },
+    {
+     "height": 76.2,
+     "weight": 63.8,
+     "group": "a",
+     "size": 90
+    },
+    {
+     "height": 3.7,
+     "weight": 6.3,
+     "group": "b",
+     "size": 11
+    },
+    {
+     "height": 8.5,
+     "weight": 5.4,
+     "group": "a",
+     "size": 95
+    },
+    {
+     "height": 19.2,
+     "weight": 15.5,
+     "group": "b",
+     "size": 67
+    },
+    {
+     "height": 24.3,
+     "weight": 28.3,
+     "group": "a",
+     "size": 42
+    },
+    {
+     "height": 67.4,
+     "weight": 63.7,
+     "group": "b",
+     "size": 42
+    },
+    {
+     "height": 6.1,
+     "weight": 10.6,
+     "group": "a",
+     "size": 97
+    },
+    {
+     "height": 15.2,
+     "weight": 36.9,
+     "group": "a",
+     "size": 12
+    },
+    {
+     "height": 21,
+     "weight": 30.7,
+     "group": "b",
+     "size": 8
+    },
+    {
+     "height": 27.3,
+     "weight": 35.8,
+     "group": "a",
+     "size": 48
+    },
+    {
+     "height": 99.4,
+     "weight": 61.9,
+     "group": "b",
+     "size": 31
+    },
+    {
+     "height": 0.4,
+     "weight": 0.4,
+     "group": "b",
+     "size": 9
+    },
+    {
+     "height": 23.4,
+     "weight": 41.8,
+     "group": "a",
+     "size": 76
+    },
+    {
+     "height": 43.7,
+     "weight": 51.9,
+     "group": "a",
+     "size": 80
+    },
+    {
+     "height": 66.2,
+     "weight": 56.9,
+     "group": "b",
+     "size": 41
+    },
+    {
+     "height": 49.7,
+     "weight": 44.7,
+     "group": "a",
+     "size": 72
+    },
+    {
+     "height": 66.5,
+     "weight": 58.9,
+     "group": "a",
+     "size": 88
+    },
+    {
+     "height": 84.5,
+     "weight": 80.3,
+     "group": "b",
+     "size": 49
+    },
+    {
+     "height": 95.7,
+     "weight": 86.7,
+     "group": "b",
+     "size": 8
+    },
+    {
+     "height": 34.3,
+     "weight": 47.1,
+     "group": "a",
+     "size": 74
+    },
+    {
+     "height": 95.5,
+     "weight": 80.9,
+     "group": "b",
+     "size": 24
+    },
+    {
+     "height": 79.8,
+     "weight": 51,
+     "group": "a",
+     "size": 80
+    },
+    {
+     "height": 63.5,
+     "weight": 59.4,
+     "group": "a",
+     "size": 44
+    },
+    {
+     "height": 87.2,
+     "weight": 69.2,
+     "group": "a",
+     "size": 27
+    },
+    {
+     "height": 68.7,
+     "weight": 54.2,
+     "group": "b",
+     "size": 19
+    },
+    {
+     "height": 58.9,
+     "weight": 42.3,
+     "group": "a",
+     "size": 82
+    },
+    {
+     "height": 33.8,
+     "weight": 40.8,
+     "group": "a",
+     "size": 12
+    },
+    {
+     "height": 30.8,
+     "weight": 46.1,
+     "group": "b",
+     "size": 13
+    },
+    {
+     "height": 39.7,
+     "weight": 24.5,
+     "group": "a",
+     "size": 90
+    },
+    {
+     "height": 17.3,
+     "weight": 16.7,
+     "group": "a",
+     "size": 70
+    },
+    {
+     "height": 17.5,
+     "weight": 14,
+     "group": "a",
+     "size": 2
+    },
+    {
+     "height": 81.2,
+     "weight": 66.5,
+     "group": "a",
+     "size": 13
+    },
+    {
+     "height": 33.1,
+     "weight": 41.3,
+     "group": "a",
+     "size": 55
+    },
+    {
+     "height": 58.8,
+     "weight": 58.6,
+     "group": "a",
+     "size": 73
+    },
+    {
+     "height": 59.8,
+     "weight": 38.9,
+     "group": "b",
+     "size": 61
+    },
+    {
+     "height": 22.5,
+     "weight": 30.9,
+     "group": "b",
+     "size": 22
+    },
+    {
+     "height": 62,
+     "weight": 56.1,
+     "group": "a",
+     "size": 24
+    },
+    {
+     "height": 90.6,
+     "weight": 55.9,
+     "group": "a",
+     "size": 41
+    },
+    {
+     "height": 79.2,
+     "weight": 67.3,
+     "group": "a",
+     "size": 10
+    },
+    {
+     "height": 91.9,
+     "weight": 70.2,
+     "group": "a",
+     "size": 42
+    },
+    {
+     "height": 86.6,
+     "weight": 75.7,
+     "group": "a",
+     "size": 91
+    },
+    {
+     "height": 85.8,
+     "weight": 57.2,
+     "group": "a",
+     "size": 15
+    },
+    {
+     "height": 12.5,
+     "weight": 36,
+     "group": "a",
+     "size": 6
+    },
+    {
+     "height": 7.7,
+     "weight": 12.5,
+     "group": "a",
+     "size": 87
+    },
+    {
+     "height": 95.7,
+     "weight": 65.7,
+     "group": "b",
+     "size": 3
+    },
+    {
+     "height": 47,
+     "weight": 45,
+     "group": "b",
+     "size": 32
+    },
+    {
+     "height": 48.1,
+     "weight": 35.7,
+     "group": "b",
+     "size": 4
+    },
+    {
+     "height": 9.4,
+     "weight": 24.5,
+     "group": "b",
+     "size": 81
+    },
+    {
+     "height": 72.8,
+     "weight": 59,
+     "group": "a",
+     "size": 39
+    },
+    {
+     "height": 61.3,
+     "weight": 65.7,
+     "group": "a",
+     "size": 96
+    },
+    {
+     "height": 71.2,
+     "weight": 60.8,
+     "group": "a",
+     "size": 17
+    },
+    {
+     "height": 6.5,
+     "weight": 25.7,
+     "group": "a",
+     "size": 43
+    },
+    {
+     "height": 54.5,
+     "weight": 44.3,
+     "group": "b",
+     "size": 12
+    },
+    {
+     "height": 6.6,
+     "weight": 6.3,
+     "group": "b",
+     "size": 34
+    },
+    {
+     "height": 20,
+     "weight": 31.2,
+     "group": "b",
+     "size": 5
+    },
+    {
+     "height": 0.2,
+     "weight": 25.2,
+     "group": "a",
+     "size": 4
+    },
+    {
+     "height": 76.8,
+     "weight": 55.6,
+     "group": "b",
+     "size": 91
+    },
+    {
+     "height": 79.7,
+     "weight": 48.2,
+     "group": "a",
+     "size": 21
+    },
+    {
+     "height": 64.3,
+     "weight": 51.4,
+     "group": "b",
+     "size": 17
+    },
+    {
+     "height": 75.5,
+     "weight": 67.9,
+     "group": "b",
+     "size": 86
+    },
+    {
+     "height": 81.3,
+     "weight": 58.3,
+     "group": "b",
+     "size": 30
+    },
+    {
+     "height": 25.3,
+     "weight": 41.6,
+     "group": "a",
+     "size": 68
+    },
+    {
+     "height": 49.8,
+     "weight": 55.9,
+     "group": "a",
+     "size": 81
+    },
+    {
+     "height": 76.1,
+     "weight": 74.8,
+     "group": "a",
+     "size": 29
+    },
+    {
+     "height": 71.2,
+     "weight": 52.4,
+     "group": "a",
+     "size": 16
+    },
+    {
+     "height": 84.5,
+     "weight": 70.5,
+     "group": "a",
+     "size": 47
+    },
+    {
+     "height": 79.6,
+     "weight": 72.6,
+     "group": "b",
+     "size": 23
+    },
+    {
+     "height": 19.6,
+     "weight": 12.5,
+     "group": "a",
+     "size": 81
+    },
+    {
+     "height": 62.7,
+     "weight": 63.2,
+     "group": "a",
+     "size": 81
+    },
+    {
+     "height": 20.7,
+     "weight": 29.3,
+     "group": "b",
+     "size": 39
+    },
+    {
+     "height": 53.8,
+     "weight": 54.8,
+     "group": "a",
+     "size": 38
+    },
+    {
+     "height": 50,
+     "weight": 37.3,
+     "group": "a",
+     "size": 77
+    },
+    {
+     "height": 29.7,
+     "weight": 25.5,
+     "group": "a",
+     "size": 55
+    },
+    {
+     "height": 93.8,
+     "weight": 73.3,
+     "group": "b",
+     "size": 60
+    },
+    {
+     "height": 57.4,
+     "weight": 53.5,
+     "group": "a",
+     "size": 16
+    }
+   ],
+   "x": "height",
+   "y": "weight",
+   "by": "group"
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "bubble",
+  "options": {
+   "type": "bubble",
+   "data": [
+    {
+     "height": 75.7,
+     "weight": 56.3,
+     "group": "a",
+     "size": 3
+    },
+    {
+     "height": 29.9,
+     "weight": 34.2,
+     "group": "b",
+     "size": 72
+    },
+    {
+     "height": 29.1,
+     "weight": 24.5,
+     "group": "a",
+     "size": 43
+    },
+    {
+     "height": 7.5,
+     "weight": 27.7,
+     "group": "a",
+     "size": 92
+    },
+    {
+     "height": 91,
+     "weight": 75,
+     "group": "a",
+     "size": 3
+    },
+    {
+     "height": 76.2,
+     "weight": 63.8,
+     "group": "a",
+     "size": 90
+    },
+    {
+     "height": 3.7,
+     "weight": 6.3,
+     "group": "b",
+     "size": 11
+    },
+    {
+     "height": 8.5,
+     "weight": 5.4,
+     "group": "a",
+     "size": 95
+    },
+    {
+     "height": 19.2,
+     "weight": 15.5,
+     "group": "b",
+     "size": 67
+    },
+    {
+     "height": 24.3,
+     "weight": 28.3,
+     "group": "a",
+     "size": 42
+    },
+    {
+     "height": 67.4,
+     "weight": 63.7,
+     "group": "b",
+     "size": 42
+    },
+    {
+     "height": 6.1,
+     "weight": 10.6,
+     "group": "a",
+     "size": 97
+    },
+    {
+     "height": 15.2,
+     "weight": 36.9,
+     "group": "a",
+     "size": 12
+    },
+    {
+     "height": 21,
+     "weight": 30.7,
+     "group": "b",
+     "size": 8
+    },
+    {
+     "height": 27.3,
+     "weight": 35.8,
+     "group": "a",
+     "size": 48
+    },
+    {
+     "height": 99.4,
+     "weight": 61.9,
+     "group": "b",
+     "size": 31
+    },
+    {
+     "height": 0.4,
+     "weight": 0.4,
+     "group": "b",
+     "size": 9
+    },
+    {
+     "height": 23.4,
+     "weight": 41.8,
+     "group": "a",
+     "size": 76
+    },
+    {
+     "height": 43.7,
+     "weight": 51.9,
+     "group": "a",
+     "size": 80
+    },
+    {
+     "height": 66.2,
+     "weight": 56.9,
+     "group": "b",
+     "size": 41
+    },
+    {
+     "height": 49.7,
+     "weight": 44.7,
+     "group": "a",
+     "size": 72
+    },
+    {
+     "height": 66.5,
+     "weight": 58.9,
+     "group": "a",
+     "size": 88
+    },
+    {
+     "height": 84.5,
+     "weight": 80.3,
+     "group": "b",
+     "size": 49
+    },
+    {
+     "height": 95.7,
+     "weight": 86.7,
+     "group": "b",
+     "size": 8
+    },
+    {
+     "height": 34.3,
+     "weight": 47.1,
+     "group": "a",
+     "size": 74
+    },
+    {
+     "height": 95.5,
+     "weight": 80.9,
+     "group": "b",
+     "size": 24
+    },
+    {
+     "height": 79.8,
+     "weight": 51,
+     "group": "a",
+     "size": 80
+    },
+    {
+     "height": 63.5,
+     "weight": 59.4,
+     "group": "a",
+     "size": 44
+    },
+    {
+     "height": 87.2,
+     "weight": 69.2,
+     "group": "a",
+     "size": 27
+    },
+    {
+     "height": 68.7,
+     "weight": 54.2,
+     "group": "b",
+     "size": 19
+    }
+   ],
+   "x": "height",
+   "y": "weight",
+   "size": "size"
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "range",
+  "options": {
+   "type": "range",
+   "data": [
+    {
+     "hour": 0,
+     "low": 8.3,
+     "high": 16.3,
+     "mean": 12
+    },
+    {
+     "hour": 1,
+     "low": 10,
+     "high": 17,
+     "mean": 13.5
+    },
+    {
+     "hour": 2,
+     "low": 10.4,
+     "high": 19.4,
+     "mean": 14.9
+    },
+    {
+     "hour": 3,
+     "low": 11.7,
+     "high": 20.8,
+     "mean": 16.1
+    },
+    {
+     "hour": 4,
+     "low": 13.7,
+     "high": 20.6,
+     "mean": 17
+    },
+    {
+     "hour": 5,
+     "low": 13.6,
+     "high": 21.5,
+     "mean": 17.7
+    },
+    {
+     "hour": 6,
+     "low": 13.8,
+     "high": 21.8,
+     "mean": 18
+    },
+    {
+     "hour": 7,
+     "low": 13.8,
+     "high": 22.7,
+     "mean": 17.9
+    },
+    {
+     "hour": 8,
+     "low": 12.8,
+     "high": 21.3,
+     "mean": 17.5
+    },
+    {
+     "hour": 9,
+     "low": 13,
+     "high": 21.6,
+     "mean": 16.7
+    },
+    {
+     "hour": 10,
+     "low": 11.1,
+     "high": 20.5,
+     "mean": 15.6
+    },
+    {
+     "hour": 11,
+     "low": 10.8,
+     "high": 19.2,
+     "mean": 14.3
+    },
+    {
+     "hour": 12,
+     "low": 8,
+     "high": 17.3,
+     "mean": 12.8
+    },
+    {
+     "hour": 13,
+     "low": 7.2,
+     "high": 15.6,
+     "mean": 11.4
+    },
+    {
+     "hour": 14,
+     "low": 5.1,
+     "high": 13.3,
+     "mean": 9.9
+    },
+    {
+     "hour": 15,
+     "low": 4.6,
+     "high": 12.5,
+     "mean": 8.6
+    },
+    {
+     "hour": 16,
+     "low": 2.9,
+     "high": 12,
+     "mean": 7.5
+    },
+    {
+     "hour": 17,
+     "low": 2.2,
+     "high": 10.9,
+     "mean": 6.6
+    },
+    {
+     "hour": 18,
+     "low": 3.1,
+     "high": 9.7,
+     "mean": 6.1
+    },
+    {
+     "hour": 19,
+     "low": 1.5,
+     "high": 10.1,
+     "mean": 6
+    },
+    {
+     "hour": 20,
+     "low": 3.2,
+     "high": 10.3,
+     "mean": 6.2
+    },
+    {
+     "hour": 21,
+     "low": 2,
+     "high": 9.9,
+     "mean": 6.8
+    },
+    {
+     "hour": 22,
+     "low": 2.9,
+     "high": 12.1,
+     "mean": 7.8
+    },
+    {
+     "hour": 23,
+     "low": 4.9,
+     "high": 13.7,
+     "mean": 9
+    }
+   ],
+   "x": "hour",
+   "from": "low",
+   "to": "high",
+   "y": "mean"
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "candlestick",
+  "options": {
+   "type": "candlestick",
+   "data": [
+    {
+     "day": "D1",
+     "open": 100,
+     "high": 105.1,
+     "low": 97.3,
+     "close": 102.4
+    },
+    {
+     "day": "D2",
+     "open": 102.4,
+     "high": 107.3,
+     "low": 101.6,
+     "close": 105
+    },
+    {
+     "day": "D3",
+     "open": 105,
+     "high": 105.7,
+     "low": 102,
+     "close": 102.2
+    },
+    {
+     "day": "D4",
+     "open": 102.2,
+     "high": 104.1,
+     "low": 98.6,
+     "close": 99.3
+    },
+    {
+     "day": "D5",
+     "open": 99.3,
+     "high": 102.4,
+     "low": 97.2,
+     "close": 100.9
+    },
+    {
+     "day": "D6",
+     "open": 100.9,
+     "high": 103.5,
+     "low": 98.7,
+     "close": 99.4
+    },
+    {
+     "day": "D7",
+     "open": 99.4,
+     "high": 102.1,
+     "low": 98.4,
+     "close": 98.8
+    },
+    {
+     "day": "D8",
+     "open": 98.8,
+     "high": 98.9,
+     "low": 96.1,
+     "close": 98.9
+    },
+    {
+     "day": "D9",
+     "open": 98.9,
+     "high": 102.6,
+     "low": 98.8,
+     "close": 99.8
+    },
+    {
+     "day": "D10",
+     "open": 99.8,
+     "high": 102.9,
+     "low": 96.9,
+     "close": 102.3
+    },
+    {
+     "day": "D11",
+     "open": 102.3,
+     "high": 104.8,
+     "low": 101.5,
+     "close": 102.8
+    },
+    {
+     "day": "D12",
+     "open": 102.8,
+     "high": 103.4,
+     "low": 99.6,
+     "close": 101.3
+    },
+    {
+     "day": "D13",
+     "open": 101.3,
+     "high": 103.6,
+     "low": 96.6,
+     "close": 98.7
+    },
+    {
+     "day": "D14",
+     "open": 98.7,
+     "high": 101.6,
+     "low": 98.6,
+     "close": 100.1
+    },
+    {
+     "day": "D15",
+     "open": 100.1,
+     "high": 102.9,
+     "low": 97.5,
+     "close": 97.9
+    },
+    {
+     "day": "D16",
+     "open": 97.9,
+     "high": 101.8,
+     "low": 97.8,
+     "close": 99.1
+    },
+    {
+     "day": "D17",
+     "open": 99.1,
+     "high": 104.1,
+     "low": 96.1,
+     "close": 101.5
+    },
+    {
+     "day": "D18",
+     "open": 101.5,
+     "high": 106.6,
+     "low": 100.2,
+     "close": 104.3
+    },
+    {
+     "day": "D19",
+     "open": 104.3,
+     "high": 106.5,
+     "low": 100.3,
+     "close": 102.9
+    },
+    {
+     "day": "D20",
+     "open": 102.9,
+     "high": 103.6,
+     "low": 101.2,
+     "close": 102.4
+    },
+    {
+     "day": "D21",
+     "open": 102.4,
+     "high": 106.5,
+     "low": 101.3,
+     "close": 104.8
+    },
+    {
+     "day": "D22",
+     "open": 104.8,
+     "high": 107.8,
+     "low": 103.8,
+     "close": 105.6
+    },
+    {
+     "day": "D23",
+     "open": 105.6,
+     "high": 108.4,
+     "low": 105,
+     "close": 107.1
+    },
+    {
+     "day": "D24",
+     "open": 107.1,
+     "high": 110.1,
+     "low": 103.1,
+     "close": 106.1
+    },
+    {
+     "day": "D25",
+     "open": 106.1,
+     "high": 109.6,
+     "low": 103.3,
+     "close": 107
+    },
+    {
+     "day": "D26",
+     "open": 107,
+     "high": 108.9,
+     "low": 104.9,
+     "close": 105.3
+    },
+    {
+     "day": "D27",
+     "open": 105.3,
+     "high": 107.1,
+     "low": 103,
+     "close": 105.4
+    },
+    {
+     "day": "D28",
+     "open": 105.4,
+     "high": 109.6,
+     "low": 104.8,
+     "close": 108.2
+    },
+    {
+     "day": "D29",
+     "open": 108.2,
+     "high": 108.7,
+     "low": 106,
+     "close": 108
+    },
+    {
+     "day": "D30",
+     "open": 108,
+     "high": 110,
+     "low": 106.5,
+     "close": 108.3
+    }
+   ]
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "ohlc",
+  "options": {
+   "type": "ohlc",
+   "data": [
+    {
+     "day": "D1",
+     "open": 100,
+     "high": 105.1,
+     "low": 97.3,
+     "close": 102.4
+    },
+    {
+     "day": "D2",
+     "open": 102.4,
+     "high": 107.3,
+     "low": 101.6,
+     "close": 105
+    },
+    {
+     "day": "D3",
+     "open": 105,
+     "high": 105.7,
+     "low": 102,
+     "close": 102.2
+    },
+    {
+     "day": "D4",
+     "open": 102.2,
+     "high": 104.1,
+     "low": 98.6,
+     "close": 99.3
+    },
+    {
+     "day": "D5",
+     "open": 99.3,
+     "high": 102.4,
+     "low": 97.2,
+     "close": 100.9
+    },
+    {
+     "day": "D6",
+     "open": 100.9,
+     "high": 103.5,
+     "low": 98.7,
+     "close": 99.4
+    },
+    {
+     "day": "D7",
+     "open": 99.4,
+     "high": 102.1,
+     "low": 98.4,
+     "close": 98.8
+    },
+    {
+     "day": "D8",
+     "open": 98.8,
+     "high": 98.9,
+     "low": 96.1,
+     "close": 98.9
+    },
+    {
+     "day": "D9",
+     "open": 98.9,
+     "high": 102.6,
+     "low": 98.8,
+     "close": 99.8
+    },
+    {
+     "day": "D10",
+     "open": 99.8,
+     "high": 102.9,
+     "low": 96.9,
+     "close": 102.3
+    },
+    {
+     "day": "D11",
+     "open": 102.3,
+     "high": 104.8,
+     "low": 101.5,
+     "close": 102.8
+    },
+    {
+     "day": "D12",
+     "open": 102.8,
+     "high": 103.4,
+     "low": 99.6,
+     "close": 101.3
+    },
+    {
+     "day": "D13",
+     "open": 101.3,
+     "high": 103.6,
+     "low": 96.6,
+     "close": 98.7
+    },
+    {
+     "day": "D14",
+     "open": 98.7,
+     "high": 101.6,
+     "low": 98.6,
+     "close": 100.1
+    },
+    {
+     "day": "D15",
+     "open": 100.1,
+     "high": 102.9,
+     "low": 97.5,
+     "close": 97.9
+    },
+    {
+     "day": "D16",
+     "open": 97.9,
+     "high": 101.8,
+     "low": 97.8,
+     "close": 99.1
+    },
+    {
+     "day": "D17",
+     "open": 99.1,
+     "high": 104.1,
+     "low": 96.1,
+     "close": 101.5
+    },
+    {
+     "day": "D18",
+     "open": 101.5,
+     "high": 106.6,
+     "low": 100.2,
+     "close": 104.3
+    },
+    {
+     "day": "D19",
+     "open": 104.3,
+     "high": 106.5,
+     "low": 100.3,
+     "close": 102.9
+    },
+    {
+     "day": "D20",
+     "open": 102.9,
+     "high": 103.6,
+     "low": 101.2,
+     "close": 102.4
+    },
+    {
+     "day": "D21",
+     "open": 102.4,
+     "high": 106.5,
+     "low": 101.3,
+     "close": 104.8
+    },
+    {
+     "day": "D22",
+     "open": 104.8,
+     "high": 107.8,
+     "low": 103.8,
+     "close": 105.6
+    },
+    {
+     "day": "D23",
+     "open": 105.6,
+     "high": 108.4,
+     "low": 105,
+     "close": 107.1
+    },
+    {
+     "day": "D24",
+     "open": 107.1,
+     "high": 110.1,
+     "low": 103.1,
+     "close": 106.1
+    },
+    {
+     "day": "D25",
+     "open": 106.1,
+     "high": 109.6,
+     "low": 103.3,
+     "close": 107
+    },
+    {
+     "day": "D26",
+     "open": 107,
+     "high": 108.9,
+     "low": 104.9,
+     "close": 105.3
+    },
+    {
+     "day": "D27",
+     "open": 105.3,
+     "high": 107.1,
+     "low": 103,
+     "close": 105.4
+    },
+    {
+     "day": "D28",
+     "open": 105.4,
+     "high": 109.6,
+     "low": 104.8,
+     "close": 108.2
+    },
+    {
+     "day": "D29",
+     "open": 108.2,
+     "high": 108.7,
+     "low": 106,
+     "close": 108
+    },
+    {
+     "day": "D30",
+     "open": 108,
+     "high": 110,
+     "low": 106.5,
+     "close": 108.3
+    }
+   ]
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "boxplot",
+  "options": {
+   "type": "boxplot",
+   "data": [
+    {
+     "service": "api",
+     "ms": 55.3
+    },
+    {
+     "service": "api",
+     "ms": 73.6
+    },
+    {
+     "service": "api",
+     "ms": 27.6
+    },
+    {
+     "service": "api",
+     "ms": 184.7
+    },
+    {
+     "service": "api",
+     "ms": 78.8
+    },
+    {
+     "service": "api",
+     "ms": 62.7
+    },
+    {
+     "service": "api",
+     "ms": 33.2
+    },
+    {
+     "service": "api",
+     "ms": 77.6
+    },
+    {
+     "service": "api",
+     "ms": 72.8
+    },
+    {
+     "service": "api",
+     "ms": 72.8
+    },
+    {
+     "service": "api",
+     "ms": 69.2
+    },
+    {
+     "service": "api",
+     "ms": 27.9
+    },
+    {
+     "service": "api",
+     "ms": 48.8
+    },
+    {
+     "service": "api",
+     "ms": 59.5
+    },
+    {
+     "service": "api",
+     "ms": 71.6
+    },
+    {
+     "service": "api",
+     "ms": 40.5
+    },
+    {
+     "service": "api",
+     "ms": 74.1
+    },
+    {
+     "service": "api",
+     "ms": 52.2
+    },
+    {
+     "service": "api",
+     "ms": 62.5
+    },
+    {
+     "service": "api",
+     "ms": 50.6
+    },
+    {
+     "service": "api",
+     "ms": 37.4
+    },
+    {
+     "service": "api",
+     "ms": 59.2
+    },
+    {
+     "service": "api",
+     "ms": 61.5
+    },
+    {
+     "service": "api",
+     "ms": 47.2
+    },
+    {
+     "service": "api",
+     "ms": 75.8
+    },
+    {
+     "service": "api",
+     "ms": 50.8
+    },
+    {
+     "service": "api",
+     "ms": 24.1
+    },
+    {
+     "service": "api",
+     "ms": 48.3
+    },
+    {
+     "service": "api",
+     "ms": 77.4
+    },
+    {
+     "service": "api",
+     "ms": 34.7
+    },
+    {
+     "service": "api",
+     "ms": 47
+    },
+    {
+     "service": "api",
+     "ms": 24.4
+    },
+    {
+     "service": "api",
+     "ms": 56.7
+    },
+    {
+     "service": "api",
+     "ms": 72.5
+    },
+    {
+     "service": "api",
+     "ms": 26.5
+    },
+    {
+     "service": "api",
+     "ms": 22.2
+    },
+    {
+     "service": "api",
+     "ms": 71.8
+    },
+    {
+     "service": "api",
+     "ms": 20.2
+    },
+    {
+     "service": "api",
+     "ms": 52.7
+    },
+    {
+     "service": "api",
+     "ms": 49.9
+    },
+    {
+     "service": "web",
+     "ms": 26.4
+    },
+    {
+     "service": "web",
+     "ms": 54.7
+    },
+    {
+     "service": "web",
+     "ms": 51.2
+    },
+    {
+     "service": "web",
+     "ms": 192.6
+    },
+    {
+     "service": "web",
+     "ms": 61.8
+    },
+    {
+     "service": "web",
+     "ms": 57.3
+    },
+    {
+     "service": "web",
+     "ms": 71
+    },
+    {
+     "service": "web",
+     "ms": 29.2
+    },
+    {
+     "service": "web",
+     "ms": 79.7
+    },
+    {
+     "service": "web",
+     "ms": 63.1
+    },
+    {
+     "service": "web",
+     "ms": 35.2
+    },
+    {
+     "service": "web",
+     "ms": 52.3
+    },
+    {
+     "service": "web",
+     "ms": 65
+    },
+    {
+     "service": "web",
+     "ms": 65.3
+    },
+    {
+     "service": "web",
+     "ms": 79.3
+    },
+    {
+     "service": "web",
+     "ms": 70.9
+    },
+    {
+     "service": "web",
+     "ms": 21.9
+    },
+    {
+     "service": "web",
+     "ms": 56.4
+    },
+    {
+     "service": "web",
+     "ms": 44.3
+    },
+    {
+     "service": "web",
+     "ms": 47.8
+    },
+    {
+     "service": "web",
+     "ms": 20.6
+    },
+    {
+     "service": "web",
+     "ms": 73.1
+    },
+    {
+     "service": "web",
+     "ms": 28.6
+    },
+    {
+     "service": "web",
+     "ms": 44.6
+    },
+    {
+     "service": "web",
+     "ms": 63
+    },
+    {
+     "service": "web",
+     "ms": 78.8
+    },
+    {
+     "service": "web",
+     "ms": 79.1
+    },
+    {
+     "service": "web",
+     "ms": 68.2
+    },
+    {
+     "service": "web",
+     "ms": 26.8
+    },
+    {
+     "service": "web",
+     "ms": 58.7
+    },
+    {
+     "service": "web",
+     "ms": 71.5
+    },
+    {
+     "service": "web",
+     "ms": 38.2
+    },
+    {
+     "service": "web",
+     "ms": 69.1
+    },
+    {
+     "service": "web",
+     "ms": 74.6
+    },
+    {
+     "service": "web",
+     "ms": 21.4
+    },
+    {
+     "service": "web",
+     "ms": 67.1
+    },
+    {
+     "service": "web",
+     "ms": 66.2
+    },
+    {
+     "service": "web",
+     "ms": 47
+    },
+    {
+     "service": "web",
+     "ms": 76.8
+    },
+    {
+     "service": "web",
+     "ms": 68.9
+    },
+    {
+     "service": "db",
+     "ms": 63
+    },
+    {
+     "service": "db",
+     "ms": 68.5
+    },
+    {
+     "service": "db",
+     "ms": 110.8
+    },
+    {
+     "service": "db",
+     "ms": 273.7
+    },
+    {
+     "service": "db",
+     "ms": 65.2
+    },
+    {
+     "service": "db",
+     "ms": 79.8
+    },
+    {
+     "service": "db",
+     "ms": 99.1
+    },
+    {
+     "service": "db",
+     "ms": 94.6
+    },
+    {
+     "service": "db",
+     "ms": 99.3
+    },
+    {
+     "service": "db",
+     "ms": 106.3
+    },
+    {
+     "service": "db",
+     "ms": 69.8
+    },
+    {
+     "service": "db",
+     "ms": 85.7
+    },
+    {
+     "service": "db",
+     "ms": 84.2
+    },
+    {
+     "service": "db",
+     "ms": 68.9
+    },
+    {
+     "service": "db",
+     "ms": 117.9
+    },
+    {
+     "service": "db",
+     "ms": 82.9
+    },
+    {
+     "service": "db",
+     "ms": 93.1
+    },
+    {
+     "service": "db",
+     "ms": 66.2
+    },
+    {
+     "service": "db",
+     "ms": 91.5
+    },
+    {
+     "service": "db",
+     "ms": 98.1
+    },
+    {
+     "service": "db",
+     "ms": 67.2
+    },
+    {
+     "service": "db",
+     "ms": 103.8
+    },
+    {
+     "service": "db",
+     "ms": 79.8
+    },
+    {
+     "service": "db",
+     "ms": 97.2
+    },
+    {
+     "service": "db",
+     "ms": 104.6
+    },
+    {
+     "service": "db",
+     "ms": 64.6
+    },
+    {
+     "service": "db",
+     "ms": 79.7
+    },
+    {
+     "service": "db",
+     "ms": 70.6
+    },
+    {
+     "service": "db",
+     "ms": 87.7
+    },
+    {
+     "service": "db",
+     "ms": 114.4
+    },
+    {
+     "service": "db",
+     "ms": 100.8
+    },
+    {
+     "service": "db",
+     "ms": 105.6
+    },
+    {
+     "service": "db",
+     "ms": 86.4
+    },
+    {
+     "service": "db",
+     "ms": 108.3
+    },
+    {
+     "service": "db",
+     "ms": 113.6
+    },
+    {
+     "service": "db",
+     "ms": 83.8
+    },
+    {
+     "service": "db",
+     "ms": 82.7
+    },
+    {
+     "service": "db",
+     "ms": 106.6
+    },
+    {
+     "service": "db",
+     "ms": 65.8
+    },
+    {
+     "service": "db",
+     "ms": 116.4
+    },
+    {
+     "service": "cache",
+     "ms": 56.7
+    },
+    {
+     "service": "cache",
+     "ms": 40.7
+    },
+    {
+     "service": "cache",
+     "ms": 70.1
+    },
+    {
+     "service": "cache",
+     "ms": 221.7
+    },
+    {
+     "service": "cache",
+     "ms": 71.4
+    },
+    {
+     "service": "cache",
+     "ms": 23.8
+    },
+    {
+     "service": "cache",
+     "ms": 26.5
+    },
+    {
+     "service": "cache",
+     "ms": 39.2
+    },
+    {
+     "service": "cache",
+     "ms": 37.4
+    },
+    {
+     "service": "cache",
+     "ms": 20.3
+    },
+    {
+     "service": "cache",
+     "ms": 69.2
+    },
+    {
+     "service": "cache",
+     "ms": 34.9
+    },
+    {
+     "service": "cache",
+     "ms": 20
+    },
+    {
+     "service": "cache",
+     "ms": 56.4
+    },
+    {
+     "service": "cache",
+     "ms": 58.6
+    },
+    {
+     "service": "cache",
+     "ms": 76.2
+    },
+    {
+     "service": "cache",
+     "ms": 65.2
+    },
+    {
+     "service": "cache",
+     "ms": 60.4
+    },
+    {
+     "service": "cache",
+     "ms": 33
+    },
+    {
+     "service": "cache",
+     "ms": 54
+    },
+    {
+     "service": "cache",
+     "ms": 72.4
+    },
+    {
+     "service": "cache",
+     "ms": 77.5
+    },
+    {
+     "service": "cache",
+     "ms": 48.8
+    },
+    {
+     "service": "cache",
+     "ms": 22.2
+    },
+    {
+     "service": "cache",
+     "ms": 56.5
+    },
+    {
+     "service": "cache",
+     "ms": 44.9
+    },
+    {
+     "service": "cache",
+     "ms": 49.2
+    },
+    {
+     "service": "cache",
+     "ms": 50.2
+    },
+    {
+     "service": "cache",
+     "ms": 48.2
+    },
+    {
+     "service": "cache",
+     "ms": 66.5
+    },
+    {
+     "service": "cache",
+     "ms": 20.4
+    },
+    {
+     "service": "cache",
+     "ms": 30
+    },
+    {
+     "service": "cache",
+     "ms": 24.3
+    },
+    {
+     "service": "cache",
+     "ms": 38.7
+    },
+    {
+     "service": "cache",
+     "ms": 42.2
+    },
+    {
+     "service": "cache",
+     "ms": 47.7
+    },
+    {
+     "service": "cache",
+     "ms": 34.6
+    },
+    {
+     "service": "cache",
+     "ms": 65.3
+    },
+    {
+     "service": "cache",
+     "ms": 36
+    },
+    {
+     "service": "cache",
+     "ms": 67.2
+    }
+   ],
+   "x": "service",
+   "y": "ms"
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "waterfall",
+  "options": {
+   "type": "waterfall",
+   "data": [
+    {
+     "step": "Start",
+     "v": 100
+    },
+    {
+     "step": "Sales",
+     "v": 40
+    },
+    {
+     "step": "Refunds",
+     "v": -15
+    },
+    {
+     "step": "Costs",
+     "v": -30
+    },
+    {
+     "step": "End",
+     "total": true
+    }
+   ]
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "heatmap",
+  "options": {
+   "type": "heatmap",
+   "data": [
+    {
+     "x": "0h",
+     "y": "Mon",
+     "value": 21
+    },
+    {
+     "x": "2h",
+     "y": "Mon",
+     "value": 12
+    },
+    {
+     "x": "4h",
+     "y": "Mon",
+     "value": 33
+    },
+    {
+     "x": "6h",
+     "y": "Mon",
+     "value": 63
+    },
+    {
+     "x": "8h",
+     "y": "Mon",
+     "value": 87
+    },
+    {
+     "x": "10h",
+     "y": "Mon",
+     "value": 64
+    },
+    {
+     "x": "12h",
+     "y": "Mon",
+     "value": 39
+    },
+    {
+     "x": "14h",
+     "y": "Mon",
+     "value": 35
+    },
+    {
+     "x": "16h",
+     "y": "Mon",
+     "value": 40
+    },
+    {
+     "x": "18h",
+     "y": "Mon",
+     "value": 13
+    },
+    {
+     "x": "20h",
+     "y": "Mon",
+     "value": 15
+    },
+    {
+     "x": "22h",
+     "y": "Mon",
+     "value": 5
+    },
+    {
+     "x": "0h",
+     "y": "Tue",
+     "value": 48
+    },
+    {
+     "x": "2h",
+     "y": "Tue",
+     "value": 38
+    },
+    {
+     "x": "4h",
+     "y": "Tue",
+     "value": 9
+    },
+    {
+     "x": "6h",
+     "y": "Tue",
+     "value": 63
+    },
+    {
+     "x": "8h",
+     "y": "Tue",
+     "value": 40
+    },
+    {
+     "x": "10h",
+     "y": "Tue",
+     "value": 46
+    },
+    {
+     "x": "12h",
+     "y": "Tue",
+     "value": 10
+    },
+    {
+     "x": "14h",
+     "y": "Tue",
+     "value": 84
+    },
+    {
+     "x": "16h",
+     "y": "Tue",
+     "value": 27
+    },
+    {
+     "x": "18h",
+     "y": "Tue",
+     "value": 30
+    },
+    {
+     "x": "20h",
+     "y": "Tue",
+     "value": 12
+    },
+    {
+     "x": "22h",
+     "y": "Tue",
+     "value": 20
+    },
+    {
+     "x": "0h",
+     "y": "Wed",
+     "value": 44
+    },
+    {
+     "x": "2h",
+     "y": "Wed",
+     "value": 20
+    },
+    {
+     "x": "4h",
+     "y": "Wed",
+     "value": 61
+    },
+    {
+     "x": "6h",
+     "y": "Wed",
+     "value": 58
+    },
+    {
+     "x": "8h",
+     "y": "Wed",
+     "value": 75
+    },
+    {
+     "x": "10h",
+     "y": "Wed",
+     "value": 78
+    },
+    {
+     "x": "12h",
+     "y": "Wed",
+     "value": 49
+    },
+    {
+     "x": "14h",
+     "y": "Wed",
+     "value": 87
+    },
+    {
+     "x": "16h",
+     "y": "Wed",
+     "value": 68
+    },
+    {
+     "x": "18h",
+     "y": "Wed",
+     "value": 12
+    },
+    {
+     "x": "20h",
+     "y": "Wed",
+     "value": 62
+    },
+    {
+     "x": "22h",
+     "y": "Wed",
+     "value": 74
+    },
+    {
+     "x": "0h",
+     "y": "Thu",
+     "value": 89
+    },
+    {
+     "x": "2h",
+     "y": "Thu",
+     "value": 58
+    },
+    {
+     "x": "4h",
+     "y": "Thu",
+     "value": 97
+    },
+    {
+     "x": "6h",
+     "y": "Thu",
+     "value": 29
+    },
+    {
+     "x": "8h",
+     "y": "Thu",
+     "value": 99
+    },
+    {
+     "x": "10h",
+     "y": "Thu",
+     "value": 4
+    },
+    {
+     "x": "12h",
+     "y": "Thu",
+     "value": 10
+    },
+    {
+     "x": "14h",
+     "y": "Thu",
+     "value": 31
+    },
+    {
+     "x": "16h",
+     "y": "Thu",
+     "value": 86
+    },
+    {
+     "x": "18h",
+     "y": "Thu",
+     "value": 90
+    },
+    {
+     "x": "20h",
+     "y": "Thu",
+     "value": 72
+    },
+    {
+     "x": "22h",
+     "y": "Thu",
+     "value": 55
+    },
+    {
+     "x": "0h",
+     "y": "Fri",
+     "value": 24
+    },
+    {
+     "x": "2h",
+     "y": "Fri",
+     "value": 53
+    },
+    {
+     "x": "4h",
+     "y": "Fri",
+     "value": 78
+    },
+    {
+     "x": "6h",
+     "y": "Fri",
+     "value": 19
+    },
+    {
+     "x": "8h",
+     "y": "Fri",
+     "value": 81
+    },
+    {
+     "x": "10h",
+     "y": "Fri",
+     "value": 68
+    },
+    {
+     "x": "12h",
+     "y": "Fri",
+     "value": 58
+    },
+    {
+     "x": "14h",
+     "y": "Fri",
+     "value": 95
+    },
+    {
+     "x": "16h",
+     "y": "Fri",
+     "value": 31
+    },
+    {
+     "x": "18h",
+     "y": "Fri",
+     "value": 3
+    },
+    {
+     "x": "20h",
+     "y": "Fri",
+     "value": 73
+    },
+    {
+     "x": "22h",
+     "y": "Fri",
+     "value": 51
+    },
+    {
+     "x": "0h",
+     "y": "Sat",
+     "value": 61
+    },
+    {
+     "x": "2h",
+     "y": "Sat",
+     "value": 69
+    },
+    {
+     "x": "4h",
+     "y": "Sat",
+     "value": 68
+    },
+    {
+     "x": "6h",
+     "y": "Sat",
+     "value": 5
+    },
+    {
+     "x": "8h",
+     "y": "Sat",
+     "value": 71
+    },
+    {
+     "x": "10h",
+     "y": "Sat",
+     "value": 98
+    },
+    {
+     "x": "12h",
+     "y": "Sat",
+     "value": 85
+    },
+    {
+     "x": "14h",
+     "y": "Sat",
+     "value": 68
+    },
+    {
+     "x": "16h",
+     "y": "Sat",
+     "value": 57
+    },
+    {
+     "x": "18h",
+     "y": "Sat",
+     "value": 22
+    },
+    {
+     "x": "20h",
+     "y": "Sat",
+     "value": 63
+    },
+    {
+     "x": "22h",
+     "y": "Sat",
+     "value": 57
+    },
+    {
+     "x": "0h",
+     "y": "Sun",
+     "value": 44
+    },
+    {
+     "x": "2h",
+     "y": "Sun",
+     "value": 2
+    },
+    {
+     "x": "4h",
+     "y": "Sun",
+     "value": 86
+    },
+    {
+     "x": "6h",
+     "y": "Sun",
+     "value": 65
+    },
+    {
+     "x": "8h",
+     "y": "Sun",
+     "value": 98
+    },
+    {
+     "x": "10h",
+     "y": "Sun",
+     "value": 31
+    },
+    {
+     "x": "12h",
+     "y": "Sun",
+     "value": 74
+    },
+    {
+     "x": "14h",
+     "y": "Sun",
+     "value": 94
+    },
+    {
+     "x": "16h",
+     "y": "Sun",
+     "value": 57
+    },
+    {
+     "x": "18h",
+     "y": "Sun",
+     "value": 62
+    },
+    {
+     "x": "20h",
+     "y": "Sun",
+     "value": 20
+    },
+    {
+     "x": "22h",
+     "y": "Sun",
+     "value": 24
+    }
+   ]
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "heatmap-diverging",
+  "options": {
+   "type": "heatmap",
+   "data": [
+    {
+     "x": "0h",
+     "y": "Mon",
+     "value": -29
+    },
+    {
+     "x": "2h",
+     "y": "Mon",
+     "value": -38
+    },
+    {
+     "x": "4h",
+     "y": "Mon",
+     "value": -17
+    },
+    {
+     "x": "6h",
+     "y": "Mon",
+     "value": 13
+    },
+    {
+     "x": "8h",
+     "y": "Mon",
+     "value": 37
+    },
+    {
+     "x": "10h",
+     "y": "Mon",
+     "value": 14
+    },
+    {
+     "x": "12h",
+     "y": "Mon",
+     "value": -11
+    },
+    {
+     "x": "14h",
+     "y": "Mon",
+     "value": -15
+    },
+    {
+     "x": "16h",
+     "y": "Mon",
+     "value": -10
+    },
+    {
+     "x": "18h",
+     "y": "Mon",
+     "value": -37
+    },
+    {
+     "x": "20h",
+     "y": "Mon",
+     "value": -35
+    },
+    {
+     "x": "22h",
+     "y": "Mon",
+     "value": -45
+    },
+    {
+     "x": "0h",
+     "y": "Tue",
+     "value": -2
+    },
+    {
+     "x": "2h",
+     "y": "Tue",
+     "value": -12
+    },
+    {
+     "x": "4h",
+     "y": "Tue",
+     "value": -41
+    },
+    {
+     "x": "6h",
+     "y": "Tue",
+     "value": 13
+    },
+    {
+     "x": "8h",
+     "y": "Tue",
+     "value": -10
+    },
+    {
+     "x": "10h",
+     "y": "Tue",
+     "value": -4
+    },
+    {
+     "x": "12h",
+     "y": "Tue",
+     "value": -40
+    },
+    {
+     "x": "14h",
+     "y": "Tue",
+     "value": 34
+    },
+    {
+     "x": "16h",
+     "y": "Tue",
+     "value": -23
+    },
+    {
+     "x": "18h",
+     "y": "Tue",
+     "value": -20
+    },
+    {
+     "x": "20h",
+     "y": "Tue",
+     "value": -38
+    },
+    {
+     "x": "22h",
+     "y": "Tue",
+     "value": -30
+    },
+    {
+     "x": "0h",
+     "y": "Wed",
+     "value": -6
+    },
+    {
+     "x": "2h",
+     "y": "Wed",
+     "value": -30
+    },
+    {
+     "x": "4h",
+     "y": "Wed",
+     "value": 11
+    },
+    {
+     "x": "6h",
+     "y": "Wed",
+     "value": 8
+    },
+    {
+     "x": "8h",
+     "y": "Wed",
+     "value": 25
+    },
+    {
+     "x": "10h",
+     "y": "Wed",
+     "value": 28
+    },
+    {
+     "x": "12h",
+     "y": "Wed",
+     "value": -1
+    },
+    {
+     "x": "14h",
+     "y": "Wed",
+     "value": 37
+    },
+    {
+     "x": "16h",
+     "y": "Wed",
+     "value": 18
+    },
+    {
+     "x": "18h",
+     "y": "Wed",
+     "value": -38
+    },
+    {
+     "x": "20h",
+     "y": "Wed",
+     "value": 12
+    },
+    {
+     "x": "22h",
+     "y": "Wed",
+     "value": 24
+    },
+    {
+     "x": "0h",
+     "y": "Thu",
+     "value": 39
+    },
+    {
+     "x": "2h",
+     "y": "Thu",
+     "value": 8
+    },
+    {
+     "x": "4h",
+     "y": "Thu",
+     "value": 47
+    },
+    {
+     "x": "6h",
+     "y": "Thu",
+     "value": -21
+    },
+    {
+     "x": "8h",
+     "y": "Thu",
+     "value": 49
+    },
+    {
+     "x": "10h",
+     "y": "Thu",
+     "value": -46
+    },
+    {
+     "x": "12h",
+     "y": "Thu",
+     "value": -40
+    },
+    {
+     "x": "14h",
+     "y": "Thu",
+     "value": -19
+    },
+    {
+     "x": "16h",
+     "y": "Thu",
+     "value": 36
+    },
+    {
+     "x": "18h",
+     "y": "Thu",
+     "value": 40
+    },
+    {
+     "x": "20h",
+     "y": "Thu",
+     "value": 22
+    },
+    {
+     "x": "22h",
+     "y": "Thu",
+     "value": 5
+    },
+    {
+     "x": "0h",
+     "y": "Fri",
+     "value": -26
+    },
+    {
+     "x": "2h",
+     "y": "Fri",
+     "value": 3
+    },
+    {
+     "x": "4h",
+     "y": "Fri",
+     "value": 28
+    },
+    {
+     "x": "6h",
+     "y": "Fri",
+     "value": -31
+    },
+    {
+     "x": "8h",
+     "y": "Fri",
+     "value": 31
+    },
+    {
+     "x": "10h",
+     "y": "Fri",
+     "value": 18
+    },
+    {
+     "x": "12h",
+     "y": "Fri",
+     "value": 8
+    },
+    {
+     "x": "14h",
+     "y": "Fri",
+     "value": 45
+    },
+    {
+     "x": "16h",
+     "y": "Fri",
+     "value": -19
+    },
+    {
+     "x": "18h",
+     "y": "Fri",
+     "value": -47
+    },
+    {
+     "x": "20h",
+     "y": "Fri",
+     "value": 23
+    },
+    {
+     "x": "22h",
+     "y": "Fri",
+     "value": 1
+    },
+    {
+     "x": "0h",
+     "y": "Sat",
+     "value": 11
+    },
+    {
+     "x": "2h",
+     "y": "Sat",
+     "value": 19
+    },
+    {
+     "x": "4h",
+     "y": "Sat",
+     "value": 18
+    },
+    {
+     "x": "6h",
+     "y": "Sat",
+     "value": -45
+    },
+    {
+     "x": "8h",
+     "y": "Sat",
+     "value": 21
+    },
+    {
+     "x": "10h",
+     "y": "Sat",
+     "value": 48
+    },
+    {
+     "x": "12h",
+     "y": "Sat",
+     "value": 35
+    },
+    {
+     "x": "14h",
+     "y": "Sat",
+     "value": 18
+    },
+    {
+     "x": "16h",
+     "y": "Sat",
+     "value": 7
+    },
+    {
+     "x": "18h",
+     "y": "Sat",
+     "value": -28
+    },
+    {
+     "x": "20h",
+     "y": "Sat",
+     "value": 13
+    },
+    {
+     "x": "22h",
+     "y": "Sat",
+     "value": 7
+    },
+    {
+     "x": "0h",
+     "y": "Sun",
+     "value": -6
+    },
+    {
+     "x": "2h",
+     "y": "Sun",
+     "value": -48
+    },
+    {
+     "x": "4h",
+     "y": "Sun",
+     "value": 36
+    },
+    {
+     "x": "6h",
+     "y": "Sun",
+     "value": 15
+    },
+    {
+     "x": "8h",
+     "y": "Sun",
+     "value": 48
+    },
+    {
+     "x": "10h",
+     "y": "Sun",
+     "value": -19
+    },
+    {
+     "x": "12h",
+     "y": "Sun",
+     "value": 24
+    },
+    {
+     "x": "14h",
+     "y": "Sun",
+     "value": 44
+    },
+    {
+     "x": "16h",
+     "y": "Sun",
+     "value": 7
+    },
+    {
+     "x": "18h",
+     "y": "Sun",
+     "value": 12
+    },
+    {
+     "x": "20h",
+     "y": "Sun",
+     "value": -30
+    },
+    {
+     "x": "22h",
+     "y": "Sun",
+     "value": -26
+    }
+   ]
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "calendar",
+  "options": {
+   "type": "calendar",
+   "data": [
+    {
+     "date": "2026-03-01",
+     "value": 4
+    },
+    {
+     "date": "2026-03-02",
+     "value": 4
+    },
+    {
+     "date": "2026-03-03",
+     "value": 0
+    },
+    {
+     "date": "2026-03-04",
+     "value": 6
+    },
+    {
+     "date": "2026-03-05",
+     "value": 8
+    },
+    {
+     "date": "2026-03-06",
+     "value": 8
+    },
+    {
+     "date": "2026-03-07",
+     "value": 1
+    },
+    {
+     "date": "2026-03-08",
+     "value": 3
+    },
+    {
+     "date": "2026-03-09",
+     "value": 6
+    },
+    {
+     "date": "2026-03-10",
+     "value": 4
+    },
+    {
+     "date": "2026-03-11",
+     "value": 3
+    },
+    {
+     "date": "2026-03-12",
+     "value": 3
+    },
+    {
+     "date": "2026-03-13",
+     "value": 1
+    },
+    {
+     "date": "2026-03-14",
+     "value": 4
+    },
+    {
+     "date": "2026-03-15",
+     "value": 4
+    },
+    {
+     "date": "2026-03-16",
+     "value": 6
+    },
+    {
+     "date": "2026-03-17",
+     "value": 5
+    },
+    {
+     "date": "2026-03-18",
+     "value": 5
+    },
+    {
+     "date": "2026-03-19",
+     "value": 4
+    },
+    {
+     "date": "2026-03-20",
+     "value": 6
+    },
+    {
+     "date": "2026-03-21",
+     "value": 9
+    },
+    {
+     "date": "2026-03-22",
+     "value": 9
+    },
+    {
+     "date": "2026-03-23",
+     "value": 5
+    },
+    {
+     "date": "2026-03-24",
+     "value": 8
+    },
+    {
+     "date": "2026-03-25",
+     "value": 10
+    },
+    {
+     "date": "2026-03-26",
+     "value": 6
+    },
+    {
+     "date": "2026-03-27",
+     "value": 4
+    },
+    {
+     "date": "2026-03-28",
+     "value": 6
+    },
+    {
+     "date": "2026-03-29",
+     "value": 1
+    },
+    {
+     "date": "2026-03-30",
+     "value": 3
+    },
+    {
+     "date": "2026-03-31",
+     "value": 0
+    },
+    {
+     "date": "2026-04-01",
+     "value": 8
+    },
+    {
+     "date": "2026-04-02",
+     "value": 1
+    },
+    {
+     "date": "2026-04-03",
+     "value": 2
+    },
+    {
+     "date": "2026-04-04",
+     "value": 7
+    },
+    {
+     "date": "2026-04-05",
+     "value": 2
+    },
+    {
+     "date": "2026-04-06",
+     "value": 3
+    },
+    {
+     "date": "2026-04-07",
+     "value": 1
+    },
+    {
+     "date": "2026-04-08",
+     "value": 8
+    },
+    {
+     "date": "2026-04-09",
+     "value": 3
+    },
+    {
+     "date": "2026-04-10",
+     "value": 6
+    },
+    {
+     "date": "2026-04-11",
+     "value": 8
+    },
+    {
+     "date": "2026-04-12",
+     "value": 0
+    },
+    {
+     "date": "2026-04-13",
+     "value": 8
+    },
+    {
+     "date": "2026-04-14",
+     "value": 9
+    },
+    {
+     "date": "2026-04-15",
+     "value": 8
+    },
+    {
+     "date": "2026-04-16",
+     "value": 10
+    },
+    {
+     "date": "2026-04-17",
+     "value": 1
+    },
+    {
+     "date": "2026-04-18",
+     "value": 2
+    },
+    {
+     "date": "2026-04-19",
+     "value": 0
+    },
+    {
+     "date": "2026-04-20",
+     "value": 10
+    },
+    {
+     "date": "2026-04-21",
+     "value": 5
+    },
+    {
+     "date": "2026-04-22",
+     "value": 3
+    },
+    {
+     "date": "2026-04-23",
+     "value": 5
+    },
+    {
+     "date": "2026-04-24",
+     "value": 8
+    },
+    {
+     "date": "2026-04-25",
+     "value": 7
+    },
+    {
+     "date": "2026-04-26",
+     "value": 8
+    },
+    {
+     "date": "2026-04-27",
+     "value": 0
+    },
+    {
+     "date": "2026-04-28",
+     "value": 1
+    },
+    {
+     "date": "2026-04-29",
+     "value": 6
+    },
+    {
+     "date": "2026-04-30",
+     "value": 7
+    },
+    {
+     "date": "2026-05-01",
+     "value": 1
+    },
+    {
+     "date": "2026-05-02",
+     "value": 3
+    },
+    {
+     "date": "2026-05-03",
+     "value": 4
+    },
+    {
+     "date": "2026-05-04",
+     "value": 8
+    },
+    {
+     "date": "2026-05-05",
+     "value": 7
+    },
+    {
+     "date": "2026-05-06",
+     "value": 6
+    },
+    {
+     "date": "2026-05-07",
+     "value": 2
+    },
+    {
+     "date": "2026-05-08",
+     "value": 9
+    },
+    {
+     "date": "2026-05-09",
+     "value": 10
+    },
+    {
+     "date": "2026-05-10",
+     "value": 6
+    },
+    {
+     "date": "2026-05-11",
+     "value": 7
+    },
+    {
+     "date": "2026-05-12",
+     "value": 2
+    },
+    {
+     "date": "2026-05-13",
+     "value": 9
+    },
+    {
+     "date": "2026-05-14",
+     "value": 2
+    },
+    {
+     "date": "2026-05-15",
+     "value": 3
+    },
+    {
+     "date": "2026-05-16",
+     "value": 7
+    },
+    {
+     "date": "2026-05-17",
+     "value": 4
+    },
+    {
+     "date": "2026-05-18",
+     "value": 5
+    },
+    {
+     "date": "2026-05-19",
+     "value": 10
+    },
+    {
+     "date": "2026-05-20",
+     "value": 4
+    },
+    {
+     "date": "2026-05-21",
+     "value": 6
+    },
+    {
+     "date": "2026-05-22",
+     "value": 7
+    },
+    {
+     "date": "2026-05-23",
+     "value": 1
+    },
+    {
+     "date": "2026-05-24",
+     "value": 2
+    },
+    {
+     "date": "2026-05-25",
+     "value": 2
+    },
+    {
+     "date": "2026-05-26",
+     "value": 8
+    },
+    {
+     "date": "2026-05-27",
+     "value": 3
+    },
+    {
+     "date": "2026-05-28",
+     "value": 10
+    },
+    {
+     "date": "2026-05-29",
+     "value": 5
+    },
+    {
+     "date": "2026-05-30",
+     "value": 1
+    },
+    {
+     "date": "2026-05-31",
+     "value": 5
+    },
+    {
+     "date": "2026-06-01",
+     "value": 5
+    },
+    {
+     "date": "2026-06-02",
+     "value": 0
+    },
+    {
+     "date": "2026-06-03",
+     "value": 5
+    },
+    {
+     "date": "2026-06-04",
+     "value": 8
+    },
+    {
+     "date": "2026-06-05",
+     "value": 4
+    },
+    {
+     "date": "2026-06-06",
+     "value": 2
+    },
+    {
+     "date": "2026-06-07",
+     "value": 1
+    },
+    {
+     "date": "2026-06-08",
+     "value": 6
+    },
+    {
+     "date": "2026-06-09",
+     "value": 4
+    },
+    {
+     "date": "2026-06-10",
+     "value": 1
+    },
+    {
+     "date": "2026-06-11",
+     "value": 8
+    },
+    {
+     "date": "2026-06-12",
+     "value": 0
+    },
+    {
+     "date": "2026-06-13",
+     "value": 9
+    },
+    {
+     "date": "2026-06-14",
+     "value": 7
+    },
+    {
+     "date": "2026-06-15",
+     "value": 9
+    },
+    {
+     "date": "2026-06-16",
+     "value": 7
+    },
+    {
+     "date": "2026-06-17",
+     "value": 7
+    },
+    {
+     "date": "2026-06-18",
+     "value": 8
+    },
+    {
+     "date": "2026-06-19",
+     "value": 3
+    },
+    {
+     "date": "2026-06-20",
+     "value": 7
+    },
+    {
+     "date": "2026-06-21",
+     "value": 5
+    },
+    {
+     "date": "2026-06-22",
+     "value": 0
+    },
+    {
+     "date": "2026-06-23",
+     "value": 1
+    },
+    {
+     "date": "2026-06-24",
+     "value": 1
+    },
+    {
+     "date": "2026-06-25",
+     "value": 1
+    },
+    {
+     "date": "2026-06-26",
+     "value": 5
+    },
+    {
+     "date": "2026-06-27",
+     "value": 1
+    },
+    {
+     "date": "2026-06-28",
+     "value": 2
+    }
+   ]
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "pie",
+  "options": {
+   "type": "pie",
+   "data": [
+    {
+     "name": "Search",
+     "value": 42
+    },
+    {
+     "name": "Direct",
+     "value": 26
+    },
+    {
+     "name": "Social",
+     "value": 18
+    },
+    {
+     "name": "Email",
+     "value": 9
+    },
+    {
+     "name": "Other",
+     "value": 5
+    }
+   ]
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "donut",
+  "options": {
+   "type": "donut",
+   "data": [
+    {
+     "name": "Search",
+     "value": 42
+    },
+    {
+     "name": "Direct",
+     "value": 26
+    },
+    {
+     "name": "Social",
+     "value": 18
+    },
+    {
+     "name": "Email",
+     "value": 9
+    },
+    {
+     "name": "Other",
+     "value": 5
+    }
+   ]
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "gauge",
+  "options": {
+   "type": "gauge",
+   "value": 72,
+   "label": "CPU"
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "radialBar",
+  "options": {
+   "type": "radialBar",
+   "data": [
+    {
+     "name": "Search",
+     "value": 42
+    },
+    {
+     "name": "Direct",
+     "value": 26
+    },
+    {
+     "name": "Social",
+     "value": 18
+    },
+    {
+     "name": "Email",
+     "value": 9
+    },
+    {
+     "name": "Other",
+     "value": 5
+    }
+   ]
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "radar",
+  "options": {
+   "type": "radar",
+   "data": [
+    {
+     "skill": "Speed",
+     "a": 80,
+     "b": 50
+    },
+    {
+     "skill": "Power",
+     "a": 60,
+     "b": 90
+    },
+    {
+     "skill": "Range",
+     "a": 70,
+     "b": 60
+    },
+    {
+     "skill": "Agility",
+     "a": 90,
+     "b": 40
+    },
+    {
+     "skill": "Defence",
+     "a": 40,
+     "b": 85
+    }
+   ]
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "rose",
+  "options": {
+   "type": "rose",
+   "data": [
+    {
+     "name": "Search",
+     "value": 42
+    },
+    {
+     "name": "Direct",
+     "value": 26
+    },
+    {
+     "name": "Social",
+     "value": 18
+    },
+    {
+     "name": "Email",
+     "value": 9
+    },
+    {
+     "name": "Other",
+     "value": 5
+    }
+   ]
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "waffle",
+  "options": {
+   "type": "waffle",
+   "data": [
+    {
+     "name": "Search",
+     "value": 42
+    },
+    {
+     "name": "Direct",
+     "value": 26
+    },
+    {
+     "name": "Social",
+     "value": 18
+    },
+    {
+     "name": "Email",
+     "value": 9
+    },
+    {
+     "name": "Other",
+     "value": 5
+    }
+   ]
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "treemap",
+  "options": {
+   "type": "treemap",
+   "data": [
+    {
+     "name": "Search",
+     "value": 42
+    },
+    {
+     "name": "Direct",
+     "value": 26
+    },
+    {
+     "name": "Social",
+     "value": 18
+    },
+    {
+     "name": "Email",
+     "value": 9
+    },
+    {
+     "name": "Other",
+     "value": 5
+    }
+   ]
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "treemap-groups",
+  "options": {
+   "type": "treemap",
+   "data": [
+    {
+     "n": "a",
+     "v": 30,
+     "g": "x"
+    },
+    {
+     "n": "b",
+     "v": 20,
+     "g": "x"
+    },
+    {
+     "n": "c",
+     "v": 25,
+     "g": "y"
+    },
+    {
+     "n": "d",
+     "v": 10,
+     "g": "y"
+    },
+    {
+     "n": "e",
+     "v": 15,
+     "g": "z"
+    }
+   ],
+   "by": "g"
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "funnel",
+  "options": {
+   "type": "funnel",
+   "data": [
+    {
+     "stage": "Visit",
+     "n": 1000
+    },
+    {
+     "stage": "Signup",
+     "n": 420
+    },
+    {
+     "stage": "Trial",
+     "n": 180
+    },
+    {
+     "stage": "Paid",
+     "n": 64
+    }
+   ]
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "progress",
+  "options": {
+   "type": "progress",
+   "value": 64,
+   "label": "Upload"
+  },
+  "width": 320,
+  "height": 60
+ },
+ {
+  "name": "stat",
+  "options": {
+   "type": "stat",
+   "data": [
+    {
+     "date": "2026-01-01",
+     "visits": 1086
+    },
+    {
+     "date": "2026-01-02",
+     "visits": 1109
+    },
+    {
+     "date": "2026-01-03",
+     "visits": 1286
+    },
+    {
+     "date": "2026-01-04",
+     "visits": 1255
+    },
+    {
+     "date": "2026-01-05",
+     "visits": 1331
+    },
+    {
+     "date": "2026-01-06",
+     "visits": 1398
+    },
+    {
+     "date": "2026-01-07",
+     "visits": 1264
+    },
+    {
+     "date": "2026-01-08",
+     "visits": 1331
+    },
+    {
+     "date": "2026-01-09",
+     "visits": 1404
+    },
+    {
+     "date": "2026-01-10",
+     "visits": 1401
+    },
+    {
+     "date": "2026-01-11",
+     "visits": 1383
+    },
+    {
+     "date": "2026-01-12",
+     "visits": 1328
+    },
+    {
+     "date": "2026-01-13",
+     "visits": 1455
+    },
+    {
+     "date": "2026-01-14",
+     "visits": 1259
+    },
+    {
+     "date": "2026-01-15",
+     "visits": 1290
+    },
+    {
+     "date": "2026-01-16",
+     "visits": 1248
+    },
+    {
+     "date": "2026-01-17",
+     "visits": 1270
+    },
+    {
+     "date": "2026-01-18",
+     "visits": 1276
+    },
+    {
+     "date": "2026-01-19",
+     "visits": 1145
+    },
+    {
+     "date": "2026-01-20",
+     "visits": 1026
+    }
+   ],
+   "y": "visits",
+   "label": "Visits"
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "stat-plain",
+  "options": {
+   "type": "stat",
+   "value": 1284,
+   "format": "number"
+  },
+  "width": 320,
+  "height": 120
+ },
+ {
+  "name": "light",
+  "options": {
+   "type": "area",
+   "data": [
+    {
+     "month": "Jan",
+     "north": 40,
+     "south": 53,
+     "west": 23
+    },
+    {
+     "month": "Feb",
+     "north": 47,
+     "south": 48,
+     "west": 27
+    },
+    {
+     "month": "Mar",
+     "north": 53,
+     "south": 49,
+     "west": 32
+    },
+    {
+     "month": "Apr",
+     "north": 60,
+     "south": 47,
+     "west": 32
+    },
+    {
+     "month": "May",
+     "north": 68,
+     "south": 36,
+     "west": 32
+    },
+    {
+     "month": "Jun",
+     "north": 69,
+     "south": 47,
+     "west": 31
+    },
+    {
+     "month": "Jul",
+     "north": 72,
+     "south": 42,
+     "west": 41
+    },
+    {
+     "month": "Aug",
+     "north": 77,
+     "south": 33,
+     "west": 39
+    },
+    {
+     "month": "Sep",
+     "north": 82,
+     "south": 47,
+     "west": 42
+    },
+    {
+     "month": "Oct",
+     "north": 79,
+     "south": 53,
+     "west": 47
+    },
+    {
+     "month": "Nov",
+     "north": 77,
+     "south": 38,
+     "west": 48
+    },
+    {
+     "month": "Dec",
+     "north": 80,
+     "south": 34,
+     "west": 45
+    }
+   ],
+   "theme": "light"
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "fine",
+  "options": {
+   "type": "line",
+   "data": [
+    {
+     "month": "Jan",
+     "north": 40,
+     "south": 53,
+     "west": 23
+    },
+    {
+     "month": "Feb",
+     "north": 47,
+     "south": 48,
+     "west": 27
+    },
+    {
+     "month": "Mar",
+     "north": 53,
+     "south": 49,
+     "west": 32
+    },
+    {
+     "month": "Apr",
+     "north": 60,
+     "south": 47,
+     "west": 32
+    },
+    {
+     "month": "May",
+     "north": 68,
+     "south": 36,
+     "west": 32
+    },
+    {
+     "month": "Jun",
+     "north": 69,
+     "south": 47,
+     "west": 31
+    },
+    {
+     "month": "Jul",
+     "north": 72,
+     "south": 42,
+     "west": 41
+    },
+    {
+     "month": "Aug",
+     "north": 77,
+     "south": 33,
+     "west": 39
+    },
+    {
+     "month": "Sep",
+     "north": 82,
+     "south": 47,
+     "west": 42
+    },
+    {
+     "month": "Oct",
+     "north": 79,
+     "south": 53,
+     "west": 47
+    },
+    {
+     "month": "Nov",
+     "north": 77,
+     "south": 38,
+     "west": 48
+    },
+    {
+     "month": "Dec",
+     "north": 80,
+     "south": 34,
+     "west": 45
+    }
+   ],
+   "cell": "fine"
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "chunky",
+  "options": {
+   "type": "bar",
+   "data": [
+    {
+     "month": "Jan",
+     "north": 40,
+     "south": 53,
+     "west": 23
+    },
+    {
+     "month": "Feb",
+     "north": 47,
+     "south": 48,
+     "west": 27
+    },
+    {
+     "month": "Mar",
+     "north": 53,
+     "south": 49,
+     "west": 32
+    },
+    {
+     "month": "Apr",
+     "north": 60,
+     "south": 47,
+     "west": 32
+    },
+    {
+     "month": "May",
+     "north": 68,
+     "south": 36,
+     "west": 32
+    },
+    {
+     "month": "Jun",
+     "north": 69,
+     "south": 47,
+     "west": 31
+    }
+   ],
+   "cell": "chunky"
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "no-axes",
+  "options": {
+   "type": "line",
+   "data": [
+    {
+     "month": "Jan",
+     "north": 40,
+     "south": 53,
+     "west": 23
+    },
+    {
+     "month": "Feb",
+     "north": 47,
+     "south": 48,
+     "west": 27
+    },
+    {
+     "month": "Mar",
+     "north": 53,
+     "south": 49,
+     "west": 32
+    },
+    {
+     "month": "Apr",
+     "north": 60,
+     "south": 47,
+     "west": 32
+    },
+    {
+     "month": "May",
+     "north": 68,
+     "south": 36,
+     "west": 32
+    },
+    {
+     "month": "Jun",
+     "north": 69,
+     "south": 47,
+     "west": 31
+    },
+    {
+     "month": "Jul",
+     "north": 72,
+     "south": 42,
+     "west": 41
+    },
+    {
+     "month": "Aug",
+     "north": 77,
+     "south": 33,
+     "west": 39
+    },
+    {
+     "month": "Sep",
+     "north": 82,
+     "south": 47,
+     "west": 42
+    },
+    {
+     "month": "Oct",
+     "north": 79,
+     "south": 53,
+     "west": 47
+    },
+    {
+     "month": "Nov",
+     "north": 77,
+     "south": 38,
+     "west": 48
+    },
+    {
+     "month": "Dec",
+     "north": 80,
+     "south": 34,
+     "west": 45
+    }
+   ],
+   "axes": false
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "custom-colors",
+  "options": {
+   "type": "bar",
+   "data": [
+    {
+     "month": "Jan",
+     "north": 40,
+     "south": 53,
+     "west": 23
+    },
+    {
+     "month": "Feb",
+     "north": 47,
+     "south": 48,
+     "west": 27
+    },
+    {
+     "month": "Mar",
+     "north": 53,
+     "south": 49,
+     "west": 32
+    },
+    {
+     "month": "Apr",
+     "north": 60,
+     "south": 47,
+     "west": 32
+    },
+    {
+     "month": "May",
+     "north": 68,
+     "south": 36,
+     "west": 32
+    }
+   ],
+   "colors": [
+    "#ff0066",
+    "#00ccff",
+    "#99ff33"
+   ]
+  },
+  "width": 480,
+  "height": 260
+ },
+ {
+  "name": "live-window",
+  "options": {
+   "type": "line",
+   "data": [],
+   "window": 20
+  },
+  "width": 480,
+  "height": 200,
+  "push": [
+   {
+    "value": 50
+   },
+   {
+    "value": 57
+   },
+   {
+    "value": 62
+   },
+   {
+    "value": 67
+   },
+   {
+    "value": 69
+   },
+   {
+    "value": 70
+   },
+   {
+    "value": 68
+   },
+   {
+    "value": 64
+   },
+   {
+    "value": 59
+   },
+   {
+    "value": 53
+   },
+   {
+    "value": 46
+   },
+   {
+    "value": 40
+   },
+   {
+    "value": 35
+   },
+   {
+    "value": 31
+   },
+   {
+    "value": 30
+   },
+   {
+    "value": 31
+   },
+   {
+    "value": 34
+   },
+   {
+    "value": 38
+   },
+   {
+    "value": 44
+   },
+   {
+    "value": 51
+   },
+   {
+    "value": 57
+   },
+   {
+    "value": 63
+   },
+   {
+    "value": 67
+   },
+   {
+    "value": 70
+   },
+   {
+    "value": 70
+   },
+   {
+    "value": 68
+   },
+   {
+    "value": 64
+   },
+   {
+    "value": 58
+   },
+   {
+    "value": 52
+   },
+   {
+    "value": 45
+   }
+  ]
+ },
+ {
+  "name": "live-bars",
+  "options": {
+   "type": "bar",
+   "data": [],
+   "window": 12
+  },
+  "width": 480,
+  "height": 200,
+  "push": [
+   {
+    "value": 5
+   },
+   {
+    "value": 19
+   },
+   {
+    "value": 10
+   },
+   {
+    "value": 24
+   },
+   {
+    "value": 15
+   },
+   {
+    "value": 6
+   },
+   {
+    "value": 20
+   },
+   {
+    "value": 11
+   },
+   {
+    "value": 25
+   },
+   {
+    "value": 16
+   },
+   {
+    "value": 7
+   },
+   {
+    "value": 21
+   },
+   {
+    "value": 12
+   },
+   {
+    "value": 26
+   },
+   {
+    "value": 17
+   },
+   {
+    "value": 8
+   }
+  ]
+ }
+]

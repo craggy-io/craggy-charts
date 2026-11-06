@@ -1,0 +1,32 @@
+<!doctype html>
+<!-- <craggy-chart>: charts from HTML attributes, for pages with no JavaScript of their own. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>craggy-charts · web component</title>
+<style>
+  body { margin: 0; padding: 32px; background: #111a20; display: grid; gap: 24px; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); }
+  craggy-chart { display: block; height: 260px; }
+</style>
+<!-- The script-tag build registers <craggy-chart>. From npm: import 'craggy-charts/element' -->
+<script src="../../js/dist/craggy-charts.global.js"></script>
+</head>
+<body>
+  <!-- Every option is an attribute, written in kebab-case. JSON values are parsed. -->
+  <craggy-chart type="line" x="day" format="currency" title="Revenue"
+    data='[{"day":"Mon","web":120,"app":80},{"day":"Tue","web":150,"app":95},{"day":"Wed","web":140,"app":110},
+           {"day":"Thu","web":180,"app":120},{"day":"Fri","web":210,"app":160},{"day":"Sat","web":190,"app":170},
+           {"day":"Sun","web":160,"app":150}]'></craggy-chart>
+
+  <!-- On a server, src="/api/funnel.json" loads the data from a URL instead. -->
+  <craggy-chart type="funnel" title="Signup funnel" format="number"
+    data='[{"step":"Visited","users":12400},{"step":"Signed up","users":3100},
+           {"step":"Activated","users":1800},{"step":"Subscribed","users":640}]'></craggy-chart>
+
+  <craggy-chart type="radialBar" title="Goals"
+    data='[{"name":"Sales","value":82},{"name":"Hiring","value":64},{"name":"NPS","value":47}]'></craggy-chart>
+
+  <craggy-chart type="progress" value="64" label="Upload" style="height: 60px"></craggy-chart>
+</body>
+</html>

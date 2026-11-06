@@ -1,0 +1,19 @@
+<!doctype html>
+<meta charset="utf-8">
+<style>html,body{margin:0;background:#0b1216}#c{position:absolute;left:0;top:0}</style>
+<div id="c"></div>
+<script src="../../dist/craggy-charts.global.js"></script>
+<script>
+// ?name=<fixture>&renderer=webgl2|canvas2d — renders one conformance fixture, settled (no animation).
+const q = new URLSearchParams(location.search);
+if (q.get('renderer')) CraggyCharts.setRenderer(q.get('renderer'));
+fetch('../../../conformance/fixtures.json').then(r => r.json()).then(all => {
+  const f = all.find(f => f.name === q.get('name'));
+  const el = document.getElementById('c');
+  el.style.width = f.width + 'px'; el.style.height = f.height + 'px';
+  const c = CraggyCharts.chart(el, { ...f.options, animate: false });
+  for (const row of f.push || []) c.push(row);
+  window.chartInstance = c;
+  requestAnimationFrame(() => requestAnimationFrame(() => { document.body.dataset.ready = '1'; }));
+});
+</script>

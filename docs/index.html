@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>craggy-charts — gallery</title>
+<style>
+  :root { color-scheme: dark; --bg: #0b1216; --card: #111a20; --line: #1d2b33; --text: #7f908b; --hi: #e4ecE7; --amber: #ffb547; }
+  body.light { color-scheme: light; --bg: #efede6; --card: #f7f5ef; --line: #dcdcd3; --text: #6b7a75; --hi: #1d2b35; --amber: #c26f00; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 13px/1.5 "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace; }
+  header { padding: 28px 32px 8px; display: flex; flex-wrap: wrap; gap: 16px; align-items: end; justify-content: space-between; }
+  h1 { margin: 0; color: var(--hi); font-size: 20px; letter-spacing: .02em; }
+  h1 span { color: var(--amber); }
+  h2 { color: var(--hi); font-size: 14px; margin: 28px 32px 10px; font-weight: 700; }
+  p.lead { margin: 4px 0 0; max-width: 720px; }
+  .controls { display: flex; gap: 8px; flex-wrap: wrap; }
+  .controls button { font: inherit; color: var(--hi); background: var(--card); border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; cursor: pointer; }
+  .controls button[aria-pressed="true"] { border-color: var(--amber); color: var(--amber); }
+  .grid { display: grid; gap: 14px; padding: 0 32px; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; display: flex; flex-direction: column; }
+  .card .name { padding: 8px 12px 0; font-size: 11px; color: var(--text); display: flex; justify-content: space-between; }
+  .card .name code { color: var(--hi); }
+  .card .chart { height: 240px; }
+  .card.wide { grid-column: span 2; }
+  .card.small .chart { height: 120px; }
+  .card.tiny .chart { height: 60px; }
+  @media (max-width: 760px) { .card.wide { grid-column: auto; } .grid { padding: 0 12px; } }
+  footer { padding: 32px; }
+  #log { font-size: 11px; min-height: 1.5em; color: var(--amber); padding: 0 32px; }
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>craggy<span>-</span>charts</h1>
+    <p class="lead">Every chart is a field of little rounded tiles. Hover for tooltips, use the arrow keys on a focused chart, click legend keys to toggle (double-click to isolate), wheel / drag to zoom and brush.</p>
+  </div>
+  <div class="controls" role="group" aria-label="Gallery options">
+    <button data-cell="fine">fine</button><button data-cell="normal" aria-pressed="true">normal</button><button data-cell="chunky">chunky</button>
+    <button id="theme">light theme</button>
+    <button id="morph">morph types</button>
+    <button id="shuffle">shuffle data</button>
+  </div>
+</header>
+
+<h2>Live</h2>
+<div class="grid" id="live"></div>
+<div id="log" aria-live="polite"></div>
+
+<h2>Interaction: zoom, brush and a synced group</h2>
+<div class="grid" id="interact"></div>
+
+<h2>Every type</h2>
+<div class="grid" id="all"></div>
+<footer>MIT · <a style="color:var(--amber)" href="options.md">options</a></footer>
+
+<script src="../js/dist/craggy-charts.global.js"></script>
+<script>
+const { chart } = CraggyCharts;
+const charts = [];
+const log = t => (document.getElementById('log').textContent = t);
+function card(parent, title, options, cls = '') {
+  const el = document.createElement('div');
+  el.className = 'card ' + cls;
+  el.innerHTML = `<div class="name"><code>${title}</code><span>${options.type}</span></div><div class="chart"></div>`;
+  parent.appendChild(el);
+  const c = chart(el.querySelector('.chart'), options);
+  charts.push(c);
+  return c;
+}
+
+fetch('../conformance/fixtures.json').then(r => r.json()).then(fixtures => {
+  const all = document.getElementById('all');
+  for (const f of fixtures) {
+    if (f.push) continue;
+    const cls = f.name === 'progress' ? 'tiny' : f.name === 'stat-plain' ? 'small' : '';
+    const c = card(all, f.name, f.options, cls);
+    c.el.dataset.fixture = f.name;
+  }
+  window.__fixtures = fixtures;
+  window.__ready = true;
+});
+
+// ── Live ──────────────────────────────────────────────────────────────────────────────────
+const live = document.getElementById('live');
+const cpu = card(live, 'live window: push every 400ms', { type: 'area', data: [], window: 60, y: ['api', 'worker'], format: 'percent', yAxis: { min: 0, max: 100 }, title: 'CPU', subtitle: 'hover to pause' });
+let t = 0;
+const wave = (k, a) => Math.max(2, Math.min(98, 45 + Math.sin(t / k) * a + Math.random() * 12));
+setInterval(() => { t++; cpu.push({ t: String(t), api: wave(7, 25), worker: wave(11, 18) * 0.6 }); }, 400);
+
+let price = 100;
+const candles = Array.from({ length: 40 }, (_, i) => { const o = price; price += (Math.random() - 0.48) * 4; return { day: 'D' + i, open: o, high: Math.max(o, price) + Math.random() * 2, low: Math.min(o, price) - Math.random() * 2, close: price }; });
+const btc = card(live, 'candlestick: patch the live candle', { type: 'candlestick', data: candles, window: 40, format: 'currency' });
+let n = 40;
+setInterval(() => {
+  const last = candles[candles.length - 1];
+  const close = last.close + (Math.random() - 0.5) * 1.6;
+  Object.assign(last, { close, high: Math.max(last.high, close), low: Math.min(last.low, close) });
+  btc.patch({ close, high: last.high, low: last.low });
+}, 250);
+setInterval(() => { const o = candles[candles.length - 1].close; const c = { day: 'D' + n++, open: o, high: o + 0.5, low: o - 0.5, close: o }; candles.push(c); btc.push(c); }, 3000);
+
+const g = card(live, 'gauge + stat counting', { type: 'gauge', value: 42, label: 'load', format: 'percent' });
+const s = card(live, 'stat', { type: 'stat', value: 1284, label: 'requests / s', format: 'number' });
+setInterval(() => { g.update({ value: Math.round(20 + Math.random() * 75) }); s.update({ value: Math.round(900 + Math.random() * 900) }); }, 2200);
+
+// ── Interaction ───────────────────────────────────────────────────────────────────────────
+const inter = document.getElementById('interact');
+const series = Array.from({ length: 400 }, (_, i) => ({ date: new Date(Date.UTC(2025, 0, 1) + i * 864e5).toISOString().slice(0, 10), visits: Math.round(1200 + Math.sin(i / 20) * 400 + Math.sin(i / 3) * 90 + i * 2 + Math.random() * 120), signups: Math.round(80 + Math.sin(i / 25) * 30 + Math.random() * 20) }));
+const z = card(inter, 'zoom: wheel / pinch / drag, double-click resets', { type: 'line', data: series, y: 'visits', zoom: 'x', group: 'g1', annotations: [{ y: 2000, label: 'goal' }] }, 'wide');
+const b = card(inter, 'brush (emits select), same group', { type: 'bar', data: series.slice(0, 60), y: 'signups', brush: true, group: 'g1' });
+z.on('zoom', e => log(`zoom ${e.view.map(v => v.toFixed(2)).join('–')} (${e.from} → ${e.to})`));
+b.on('select', e => log(`select ${e.from} → ${e.to} (${e.indices[1] - e.indices[0] + 1} bars)`));
+for (const c of [z, b]) c.on('click', p => log(`click ${p.title}: ${p.rows.map(r => r.name + ' ' + r.value).join(', ')}`));
+const big = Array.from({ length: 200000 }, (_, i) => ({ v: Math.sin(i / 900) * 50 + Math.sin(i / 37) * 8 + Math.random() * 6 }));
+card(inter, '200k points (M4 decimation)', { type: 'line', data: big, y: 'v', zoom: 'x', cell: 'fine' }, 'wide');
+
+// ── Controls ──────────────────────────────────────────────────────────────────────────────
+document.querySelectorAll('[data-cell]').forEach(btn => btn.addEventListener('click', () => {
+  document.querySelectorAll('[data-cell]').forEach(b => b.setAttribute('aria-pressed', String(b === btn)));
+  for (const c of charts) c.update({ cell: btn.dataset.cell });
+}));
+let light = false;
+document.getElementById('theme').addEventListener('click', e => {
+  light = !light;
+  document.body.classList.toggle('light', light);
+  e.target.setAttribute('aria-pressed', String(light));
+  for (const c of charts) c.update({ theme: light ? 'light' : 'dark' });
+});
+let morphed = false;
+document.getElementById('morph').addEventListener('click', () => {
+  morphed = !morphed;
+  for (const c of charts) {
+    const ty = c.core.opts.type, name = c.el.parentElement.parentElement.dataset.fixture;
+    if (!name) continue;
+    const orig = window.__fixtures.find(f => f.name === name).options.type;
+    const swap = { line: 'bar', bar: 'line', area: 'bar', pie: 'donut', donut: 'pie', rose: 'pie', candlestick: 'ohlc', ohlc: 'candlestick', scatter: 'bubble', treemap: 'waffle', waffle: 'treemap', radialBar: 'rose' };
+    if (swap[orig]) c.update({ type: morphed ? swap[orig] : orig });
+  }
+});
+document.getElementById('shuffle').addEventListener('click', () => {
+  for (const c of charts) {
+    const name = c.el.parentElement.parentElement.dataset.fixture;
+    if (!name) continue;
+    const f = window.__fixtures.find(f => f.name === name);
+    if (!Array.isArray(f.options.data)) { if (typeof f.options.value === 'number') c.update({ value: Math.round(f.options.value * (0.3 + Math.random())) }); continue; }
+    const data = f.options.data.map(r => (typeof r === 'number' ? r * (0.5 + Math.random()) : Object.fromEntries(Object.entries(r).map(([k, v]) => [k, typeof v === 'number' && !['height', 'hour'].includes(k) ? Math.round(v * (0.5 + Math.random()) * 10) / 10 : v]))));
+    c.update({ data: f.options.sort || f.name.startsWith('bar') ? data.sort(() => Math.random() - 0.5) : data });
+  }
+});
+window.charts = charts;
+</script>
+</body>
+</html>

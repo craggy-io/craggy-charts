@@ -1,0 +1,22 @@
+name: craggy_charts
+description: Charts drawn in the Craggy tile grid. One flat options object, beautiful defaults, smooth animation, and the same API as the craggy-charts JavaScript package.
+version: 1.0.0
+homepage: https://github.com/craggy-io/craggy-charts
+repository: https://github.com/craggy-io/craggy-charts/tree/main/flutter
+license: MIT
+topics: [charts, visualization, animation]
+
+environment:
+  sdk: ^3.13.0
+  flutter: ">=3.47.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
