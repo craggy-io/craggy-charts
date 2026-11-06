@@ -1,0 +1,77 @@
+{
+  "name": "craggy-charts",
+  "version": "1.0.0",
+  "description": "Charts drawn in the Craggy tile grid: flat options, beautiful defaults, smooth animation.",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/craggy-io/craggy-charts.git",
+    "directory": "js"
+  },
+  "main": "./dist/craggy-charts.js",
+  "module": "./dist/craggy-charts.js",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "default": "./dist/craggy-charts.js"
+    },
+    "./core": {
+      "types": "./dist/types/core/index.d.ts",
+      "default": "./dist/core.js"
+    },
+    "./react": {
+      "types": "./dist/types/react.d.ts",
+      "default": "./dist/react.js"
+    },
+    "./element": {
+      "types": "./dist/types/element.d.ts",
+      "default": "./dist/element.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": [
+    "./src/types/*.ts",
+    "./src/core/index.ts",
+    "./src/dom/chart.ts",
+    "./src/element.ts",
+    "./src/global.ts",
+    "./dist/*.js",
+    "./dist/chunks/*.js"
+  ],
+  "peerDependencies": {
+    "react": ">=17"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  },
+  "scripts": {
+    "generate": "node ../spec/generate.mjs",
+    "build": "node ../spec/generate.mjs && node build.mjs && tsc -p . --emitDeclarationOnly",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "test:visual": "playwright test",
+    "conformance": "node --import tsx ../conformance/generate.ts",
+    "build:python": "node ../python/build.mjs",
+    "gallery": "node scripts/gallery.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.0",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "esbuild": "^0.28.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.0"
+  }
+}

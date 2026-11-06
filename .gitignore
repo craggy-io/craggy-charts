@@ -1,0 +1,23 @@
+# JavaScript
+node_modules/
+js/dist/
+js/test-results/
+js/playwright-report/
+js/test/browser/out/
+js/test/browser/react.bundle.js
+
+# Python (static/ is rebuilt by python/build.mjs; hatch ships it as an artifact)
+python/.venv/
+python/craggy_charts/static/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+python/dist/
+
+# Flutter / Dart
+.dart_tool/
+flutter/build/
+flutter/example/build/
+flutter/pubspec.lock
+.flutter-plugins
+.flutter-plugins-dependencies

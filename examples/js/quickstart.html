@@ -1,0 +1,38 @@
+<!doctype html>
+<!-- The smallest page: one <script> tag and one chart. No build step. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>craggy-charts · quickstart</title>
+<style>
+  body { margin: 0; padding: 32px; background: #111a20; }
+  #sales { height: 320px; max-width: 760px; }
+</style>
+</head>
+<body>
+<div id="sales"></div>
+
+<!-- From npm: node_modules/craggy-charts/dist/craggy-charts.global.js -->
+<script src="../../js/dist/craggy-charts.global.js"></script>
+<script>
+  const { chart } = CraggyCharts;
+
+  chart('#sales', {
+    type: 'bar',
+    title: 'Sales by region',
+    data: [
+      { month: 'Jan', north: 42, south: 31, west: 18 },
+      { month: 'Feb', north: 47, south: 35, west: 22 },
+      { month: 'Mar', north: 51, south: 33, west: 29 },
+      { month: 'Apr', north: 58, south: 41, west: 34 },
+      { month: 'May', north: 63, south: 44, west: 39 },
+      { month: 'Jun', north: 71, south: 49, west: 45 },
+    ],
+    x: 'month',        // every other number column becomes a series
+    stack: true,
+    format: 'currency',
+  });
+</script>
+</body>
+</html>

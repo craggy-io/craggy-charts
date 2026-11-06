@@ -1,0 +1,110 @@
+<!doctype html>
+<!-- A live dashboard: streaming with push(), morphing with update(), events with on().
+     Plain HTML and JavaScript: open the file directly, no server or build step. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>craggy-charts · live dashboard</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 24px; height: 100vh; display: flex; flex-direction: column; gap: 14px;
+         background: #0b1216; color: #7f908b; font: 13px/1.5 "JetBrains Mono", ui-monospace, Consolas, monospace; }
+  header { display: flex; align-items: center; gap: 16px; }
+  h1 { margin: 0; font-size: 16px; color: #e4ece7; }
+  h1 span { color: #ffb547; }
+  #log { color: #ffb547; flex: 1; text-align: right; }
+  button { font: inherit; color: #e4ece7; background: #111a20; border: 1px solid #1d2b33; border-radius: 6px; padding: 6px 10px; cursor: pointer; }
+  /* The grid fills the window: stats, then the live chart and the donut, then the bars. */
+  .grid { flex: 1; min-height: 0; display: grid; gap: 14px; grid-template: 1fr 2.2fr 2fr / repeat(4, 1fr); }
+  .card { background: #111a20; border: 1px solid #1d2b33; border-radius: 10px; min-height: 0; }
+  .wide { grid-column: span 3; }
+  .full { grid-column: span 4; }
+  @media (max-width: 800px) {
+    body { height: auto; }
+    .grid { grid-template: none / 1fr 1fr; }
+    .card { height: 140px; }
+    .wide, .side, .full { grid-column: span 2; height: 280px; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>craggy<span>&gt;</span> ops</h1>
+  <button id="morph">bars ↔ area</button>
+  <div id="log" aria-live="polite">click a bar, drag across the bars, or click a legend key</div>
+</header>
+<div class="grid">
+  <div class="card" id="rps"></div>
+  <div class="card" id="errors"></div>
+  <div class="card" id="p95"></div>
+  <div class="card" id="load"></div>
+  <div class="card wide" id="cpu"></div>
+  <div class="card" id="regions"></div>
+  <div class="card full" id="hourly"></div>
+</div>
+
+<!-- From npm: node_modules/craggy-charts/dist/craggy-charts.global.js, or with a bundler:
+     import { chart } from 'craggy-charts' -->
+<script src="../../js/dist/craggy-charts.global.js"></script>
+<script>
+  const { chart } = CraggyCharts;
+
+  const log = text => (document.getElementById('log').textContent = text);
+
+  // Stat tiles: a single value, animated when it changes.
+  const rps = chart('#rps', { type: 'stat', value: 1284, label: 'requests / s', format: 'number' });
+  const errors = chart('#errors', { type: 'stat', value: 0.4, label: 'error rate', format: 'percent' });
+  const p95 = chart('#p95', { type: 'stat', value: 182, label: 'p95 ms', format: 'number' });
+  const load = chart('#load', { type: 'gauge', value: 42, label: 'load', format: 'percent' });
+
+  // Fake telemetry: one sample every half second.
+  let t = 0;
+  const clock = Date.now() - 60 * 500;
+  const wave = (k, a) => Math.max(2, Math.min(98, 45 + Math.sin(t / k) * a + Math.random() * 10));
+  const sample = () => {
+    t++;
+    const time = new Date(clock + t * 500).toTimeString().slice(0, 8);
+    return { time, api: wave(7, 25), worker: wave(11, 18) * 0.6 };
+  };
+
+  // A live window: start with the last 60 samples, then push() appends and the chart scrolls.
+  const cpu = chart('#cpu', {
+    type: 'area', data: Array.from({ length: 60 }, sample), window: 60, x: 'time', y: ['api', 'worker'],
+    format: 'percent', yAxis: { min: 0, max: 100 }, title: 'CPU',
+  });
+
+  const regions = chart('#regions', {
+    type: 'donut', title: 'Traffic',
+    data: [{ name: 'EU', value: 46 }, { name: 'US', value: 38 }, { name: 'APAC', value: 16 }],
+  });
+
+  const hours = Array.from({ length: 24 }, (_, h) => ({
+    hour: `${h}h`,
+    reads: Math.round(400 + Math.sin(h / 3.8) * 260 + Math.random() * 80),
+    writes: Math.round(120 + Math.sin(h / 4.5) * 70 + Math.random() * 30),
+  }));
+  const hourly = chart('#hourly', { type: 'bar', data: hours, x: 'hour', title: 'Requests by hour', brush: true });
+
+  // Events: click a point, brush a range, toggle a legend key.
+  hourly.on('click', p => log(`click ${p.title}: ${p.rows.map(r => `${r.name} ${r.value}`).join(', ')}`));
+  hourly.on('select', e => log(`selected ${e.from} → ${e.to}`));
+  regions.on('legend', e => log(`legend ${e.name}: ${e.hidden ? 'hidden' : 'shown'}`));
+
+  // Morph between types: update() takes any options, including a new type.
+  let area = false;
+  document.getElementById('morph').addEventListener('click', () => {
+    area = !area;
+    hourly.update({ type: area ? 'area' : 'bar', stack: area });
+  });
+
+  setInterval(() => cpu.push(sample()), 500);
+  setInterval(() => {
+    rps.update({ value: Math.round(900 + Math.random() * 900) });
+    errors.update({ value: Math.round(Math.random() * 20) / 10 });
+    p95.update({ value: Math.round(150 + Math.random() * 90) });
+    load.update({ value: Math.round(20 + Math.random() * 70) });
+  }, 2500);
+</script>
+</body>
+</html>
